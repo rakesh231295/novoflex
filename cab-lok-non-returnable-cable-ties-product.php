@@ -91,6 +91,22 @@ include 'header.php';
                     </section>
                 </section>
 
+                <div class="kwiklok-performance-card">
+                    <div class="kwiklok-tech-spec-layout">
+                        <div class="kwiklok-tech-spec-image">
+                            <img src="images/cab-lok-non-returnable-cable-ties/Line%20Drawing.jpg" alt="Cab-Lok Non-Returnable Cable Ties line drawing" />
+                        </div>
+                        <div class="kwiklok-tech-spec-content">
+                            <h2>Technical Specifications</h2>
+                            <ul class="detail-list kwiklok-bullet-list">
+                                <li><strong>Low Smoke Test:</strong> ASTM E662 compliant</li>
+                                <li><strong>Oxygen Index:</strong> 28 (BS ISO 4589)</li>
+                                <li><strong>Burning Fume Toxicity:</strong> Meets BSS 7239 requirements</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
                 <section class="kwiklok-spec-card">
                     <!--<h2>Technical Specifications</h2>-->
                     <div class="table-responsive">
