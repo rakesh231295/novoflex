@@ -194,6 +194,7 @@ include 'header.php';
                         <h3>Applications</h3>
                         <ul class="detail-list small kwiklok-bullet-list">
                             <li>Electrical &amp; Industrial Cable Bundling</li>
+                            
                             <li>Wiring Harness &amp; Panel Assembly</li>
                             <li>Infrastructure &amp; Construction Installations</li>
                             <li>Outdoor Applications for UV Black variants</li>
