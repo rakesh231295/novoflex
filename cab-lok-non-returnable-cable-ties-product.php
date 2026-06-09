@@ -35,7 +35,8 @@ include 'header.php';
                         <img src="images/cab-lok-non-returnable-cable-ties/Cab-Lok-Cable-Ties.png" alt="Cab-Lok Non-Returnable Cable Ties" />
                     </div>
 
-                    <section class="kwiklok-feature-card">
+                    <section class="kwiklok-right-col">
+                    <section class="kwiklok-feature-card kwiklok-feature-card-inner">
                         <h2>Key Features</h2>
                         <div class="kwiklok-feature-list">
                             <div class="kwiklok-feature-item">
@@ -89,14 +90,16 @@ include 'header.php';
                             </div>
                         </div>
                     </section>
+
+                    </section>div>
                 </section>
 
-                <div class="kwiklok-performance-card">
-                    <div class="kwiklok-tech-spec-layout">
-                        <div class="kwiklok-tech-spec-image">
-                            <img src="images/cab-lok-non-returnable-cable-ties/Line%20Drawing.jpg" alt="Cab-Lok Non-Returnable Cable Ties line drawing" />
-                        </div>
-                        <div class="kwiklok-tech-spec-content">
+                <section class="kwiklok-overview-grid kwiklok-tech-spec-row">
+                    <div class="kwiklok-image-card kwiklok-tech-spec-image-cell">
+                        <img src="images/cab-lok-non-returnable-cable-ties/Line%20Drawing.jpg" alt="Cab-Lok Non-Returnable Cable Ties line drawing" />
+                    </div>
+                    <div class="kwiklok-right-col">
+                        <div class="kwiklok-feature-card kwiklok-feature-card-inner">
                             <h2>Technical Specifications</h2>
                             <ul class="detail-list kwiklok-bullet-list">
                                 <li><strong>Low Smoke Test:</strong> ASTM E662 compliant</li>
@@ -105,7 +108,7 @@ include 'header.php';
                             </ul>
                         </div>
                     </div>
-                </div>
+                </section>
 
                 <section class="kwiklok-spec-card">
                     <!--<h2>Technical Specifications</h2>-->

@@ -269,7 +269,17 @@
       }
 
       syncTrack(false);
-      startSlider();
+
+      slider.addEventListener('mouseenter', function () {
+        stopSlider();
+        var nextIndex = (activeIndex + 1) % slides.length;
+        showSlide(nextIndex);
+      });
+
+      slider.addEventListener('mouseleave', function () {
+        stopSlider();
+        showSlide(0);
+      });
     });
   }
 

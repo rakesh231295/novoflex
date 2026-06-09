@@ -242,51 +242,41 @@ include 'header.php';
         </div>
       </div>
 
-      <div class="content-card company-values-panel mt-4">
-        <div class="company-values-head">
-          <span class="company-card-kicker">Core Values</span>
-          <h3 class="content-card-title">Novoflex Core Values</h3>
-          <p class="content-card-text">
-            The principles that shape our manufacturing culture, customer relationships, and long-term direction.
-          </p>
+      <div class="company-values-new mt-4">
+        <div class="company-values-new-head">
+          <h3>Our Values</h3>
         </div>
-
-        <div class="company-values-grid">
-          <article class="company-value-card">
-            <span class="company-value-no">01</span>
-            <h4>Quality Without Compromise</h4>
-            <p>We believe consistent quality is the foundation of long-term trust and manufacturing excellence.</p>
-          </article>
-
-          <article class="company-value-card">
-            <span class="company-value-no">02</span>
-            <h4>Customer Commitment</h4>
-            <p>We build relationships that go beyond transactions, working closely with customers as long-term partners.</p>
-          </article>
-
-          <article class="company-value-card">
-            <span class="company-value-no">03</span>
-            <h4>Engineering Discipline</h4>
-            <p>Precision, reliability, and continuous improvement guide everything we design and manufacture.</p>
-          </article>
-
-          <article class="company-value-card">
-            <span class="company-value-no">04</span>
-            <h4>Integrity in Every Interaction</h4>
-            <p>Transparency and accountability define how we work with customers, suppliers, and our team.</p>
-          </article>
-
-          <article class="company-value-card">
-            <span class="company-value-no">05</span>
-            <h4>Reliability in Delivery</h4>
-            <p>Dependable supply and responsiveness remain central to our service philosophy.</p>
-          </article>
-
-          <article class="company-value-card company-value-card-accent">
-            <span class="company-value-no">06</span>
-            <h4>Continuous Growth &amp; Innovation</h4>
-            <p>We continuously evolve our products, processes, and infrastructure to meet future industry needs.</p>
-          </article>
+        <div class="company-values-row">
+          <div class="company-value-item">
+            <div class="company-value-icon"><i class="bi bi-shield-check"></i></div>
+            <h4>Integrity</h4>
+            <p>We believe in honesty and transparency.</p>
+          </div>
+          <div class="company-value-item">
+            <div class="company-value-icon"><i class="bi bi-gear"></i></div>
+            <h4>Quality</h4>
+            <p>We never compromise on quality.</p>
+          </div>
+          <div class="company-value-item">
+            <div class="company-value-icon"><i class="bi bi-lightbulb"></i></div>
+            <h4>Innovation</h4>
+            <p>We innovate to solve real-world challenges.</p>
+          </div>
+          <div class="company-value-item">
+            <div class="company-value-icon"><i class="bi bi-person-check"></i></div>
+            <h4>Customer Focus</h4>
+            <p>Our customers' success is our priority.</p>
+          </div>
+          <div class="company-value-item">
+            <div class="company-value-icon"><i class="bi bi-people"></i></div>
+            <h4>Teamwork</h4>
+            <p>We achieve more together.</p>
+          </div>
+          <div class="company-value-item">
+            <div class="company-value-icon"><i class="bi bi-tree"></i></div>
+            <h4>Sustainability</h4>
+            <p>We care for the environment and future generations.</p>
+          </div>
         </div>
       </div>
     </div>
@@ -394,11 +384,12 @@ include 'header.php';
           <div class="company-journey-stage">
             <div class="company-journey-stage-icon"><i class="bi bi-building-gear"></i></div>
             <div class="company-journey-card-shell">
-              <div class="company-journey-band">1980</div>
+              <div class="company-journey-band">1980–1990</div>
               <div class="company-journey-card-body">
                 <h3>Foundation of Novoflex</h3>
                 <ul class="company-journey-points">
                   <li>Established to manufacture precision plastic components.</li>
+                  <li>Expanded range and capacity for large diameter cable ties.</li>
                 </ul>
               </div>
             </div>
@@ -409,12 +400,12 @@ include 'header.php';
           <div class="company-journey-stage">
             <div class="company-journey-stage-icon"><i class="bi bi-diagram-3"></i></div>
             <div class="company-journey-card-shell">
-              <div class="company-journey-band">1990s</div>
+              <div class="company-journey-band">1991–2000</div>
               <div class="company-journey-card-body">
                 <h3>Product Range Diversification</h3>
                 <ul class="company-journey-points">
                   <li>Expanded into Wiring Accessories &amp; Security Seals</li>
-                  <li>Deepened OEM Engagements</li>
+                  <li>Deepened OEM Engagements, forayed into Automotive sector and developed first range of harness clips.</li>
                 </ul>
               </div>
             </div>
@@ -425,12 +416,12 @@ include 'header.php';
           <div class="company-journey-stage">
             <div class="company-journey-stage-icon"><i class="bi bi-buildings"></i></div>
             <div class="company-journey-card-shell">
-              <div class="company-journey-band">2012-2013</div>
+              <div class="company-journey-band">2001–2020</div>
               <div class="company-journey-card-body">
                 <h3>Product &amp; Facility Expansion</h3>
                 <ul class="company-journey-points">
                   <li>Shift to New Modernised Facility</li>
-                  <li>Stainless Steel Cable Ties Introduced as New Product</li>
+                  <li>Stainless Steel Cable Ties &amp; cable glands Introduced as New Product</li>
                 </ul>
               </div>
             </div>
@@ -441,7 +432,7 @@ include 'header.php';
           <div class="company-journey-stage">
             <div class="company-journey-stage-icon"><i class="bi bi-patch-check"></i></div>
             <div class="company-journey-card-shell">
-              <div class="company-journey-band">2014-2016</div>
+              <div class="company-journey-band">2011–2020</div>
               <div class="company-journey-card-body">
                 <h3>Certification &amp; IATF Certified</h3>
                 <ul class="company-journey-points">
@@ -457,12 +448,12 @@ include 'header.php';
           <div class="company-journey-stage">
             <div class="company-journey-stage-icon"><i class="bi bi-award"></i></div>
             <div class="company-journey-card-shell">
-              <div class="company-journey-band">2024-2026</div>
+              <div class="company-journey-band">2021–2026</div>
               <div class="company-journey-card-body">
                 <h3>ZED Gold &amp; 3rd Facility</h3>
                 <ul class="company-journey-points">
                   <li>Awarded ZED Gold Certification</li>
-                  <li>Construction Underway for world class 3<sup>rd</sup> Manufacturing Facility</li>
+                  <li>Construction Underway for world class Manufacturing Facility.</li>
                 </ul>
               </div>
             </div>
@@ -499,13 +490,14 @@ include 'header.php';
             <li>Cable Binding and Fixing Systems</li>
             <li>Circuit Board Accessories</li>
             <li>Polyamide Cable Glands</li>
-            <li>Fasteners</li>
-            <li>Push Rivets</li>
-            <li>Grommet Rings</li>
-            <li>Electronic Component Parts</li>
-            <li>Automobile Body, Trim and Harness Clips</li>
-            <li>Security Seals</li>
+            <li class="company-product-list-more" style="display:none;">Fasteners</li>
+            <li class="company-product-list-more" style="display:none;">Push Rivets</li>
+            <li class="company-product-list-more" style="display:none;">Grommet Rings</li>
+            <li class="company-product-list-more" style="display:none;">Electronic Component Parts</li>
+            <li class="company-product-list-more" style="display:none;">Automobile Body, Trim and Harness Clips</li>
+            <li class="company-product-list-more" style="display:none;">Security Seals</li>
           </ul>
+          <a href="product.php" class="btn btn-brand mt-3 company-product-line-btn">View More <i class="bi bi-arrow-right ms-1"></i></a>
           <p class="content-card-text">
             Novoflex is a <strong>one- stop source for all your fastening needs, whether standard or customized.</strong> If you don't find what you are looking for from our ever expanding range, please give us a call and give us a chance to design and develop exactly what you want. No part is too small, or too big, or too complex for our team.
           </p>
@@ -514,6 +506,91 @@ include 'header.php';
           <img src="images/TieMounts.png" alt="Novoflex engineered product components" />
           <figcaption>Representative product image</figcaption>
         </figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="page-section mfg-excellence-section" id="manufacturing-excellence">
+    <div class="container">
+      <div class="mfg-excellence-grid">
+
+        <div class="mfg-excellence-copy">
+          <div class="section-kicker">Manufacturing Excellence</div>
+          <h2 class="mfg-excellence-heading">Engineered Precision.<br><span>Consistent Performance.</span></h2>
+          <p class="mfg-excellence-desc">At Novoflex, advanced manufacturing, stringent quality processes and continuous innovation come together to deliver reliable cable management and engineered plastic solutions you can count on.</p>
+
+          <div class="mfg-excellence-features">
+            <div class="mfg-excellence-feat">
+              <span class="mfg-feat-icon"><i class="bi bi-building-gear"></i></span>
+              <div>
+                <h4>Advanced Manufacturing Facilities</h4>
+                <p>Equipped with modern machinery and automation for high precision and efficiency.</p>
+              </div>
+            </div>
+            <div class="mfg-excellence-feat">
+              <span class="mfg-feat-icon"><i class="bi bi-shield-check"></i></span>
+              <div>
+                <h4>Quality at Every Step</h4>
+                <p>Rigorous quality control and in-process inspections ensure zero compromise on quality.</p>
+              </div>
+            </div>
+            <div class="mfg-excellence-feat">
+              <span class="mfg-feat-icon"><i class="bi bi-gem"></i></span>
+              <div>
+                <h4>Premium Raw Materials</h4>
+                <p>We use high-grade, tested raw materials for superior strength and durability.</p>
+              </div>
+            </div>
+            <div class="mfg-excellence-feat">
+              <span class="mfg-feat-icon"><i class="bi bi-gear-wide-connected"></i></span>
+              <div>
+                <h4>Continuous Improvement &amp; Innovation</h4>
+                <p>Investing in technology and people to build better solutions for tomorrow.</p>
+              </div>
+            </div>
+          </div>
+
+          <a href="company.php#how-we-work" class="btn btn-brand mt-4">Explore Our Capabilities <i class="bi bi-arrow-right ms-1"></i></a>
+        </div>
+
+        <div class="mfg-excellence-media">
+          <img src="images/career-2.jpg" alt="Novoflex Manufacturing Facility" />
+          <div class="mfg-strength-card">
+            <div class="mfg-strength-icon-wrap"><i class="bi bi-shield-fill-check"></i></div>
+            <h3>Our Strength</h3>
+            <ul>
+              <li><i class="bi bi-gear"></i> Precision Manufacturing</li>
+              <li><i class="bi bi-shield-check"></i> Reliable Quality</li>
+              <li><i class="bi bi-clock"></i> On-time Delivery</li>
+              <li><i class="bi bi-trophy"></i> Built to Perform</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="mfg-stats-row">
+        <div class="mfg-stat">
+          <span class="mfg-stat-icon"><i class="bi bi-buildings"></i></span>
+          <div>
+            <strong>3+</strong>
+            <span>State-of-the-art Manufacturing Facilities</span>
+          </div>
+        </div>
+        <div class="mfg-stat">
+          <span class="mfg-stat-icon"><i class="bi bi-globe2"></i></span>
+          <div>
+            <strong>1500+</strong>
+            <span>Products Manufactured with Precision</span>
+          </div>
+        </div>
+        <div class="mfg-stat">
+          <span class="mfg-stat-icon"><i class="bi bi-people"></i></span>
+          <div>
+            <strong>150+</strong>
+            <span>Skilled Professionals Driving Excellence</span>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -578,7 +655,7 @@ include 'header.php';
           <article class="company-workflow-step company-workflow-step-featured">
             <span class="company-workflow-step-no">05</span>
             <div class="company-workflow-step-media">
-              <img src="images/injectionpress.jpg" alt="Injection press coordination" />
+              <img src="images/injection.jpeg" alt="Injection press coordination" />
             </div>
             <div class="company-workflow-step-copy">
               <h3>Injection Press</h3>

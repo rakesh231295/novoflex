@@ -124,9 +124,8 @@ Components for Industrial Applications
         <a class="product-card" href="category.php?product=cable-ties-fastening-systems">
           <div class="product-media product-slider" data-product-slider data-interval="2600">
             <div class="product-tag">Cab Lok Series</div>
-            <img class="product-slide is-active" src="images/product/CablesTies/Gemini_Generated_Image_5tuuvg5tuuvg5tuu.png" alt="Cable Ties" />
-            <img class="product-slide" src="images/product/CablesTies/Gemini_Generated_Image_d2r7f5d2r7f5d2r7.png" alt="Cable Ties" />
-            <img class="product-slide" src="images/product/CablesTies/IMG_0014.JPG" alt="Cable Ties" />
+            <img class="product-slide product-slide-logo is-active" src="images/product-logo/logo-1.jpg" alt="Cable Ties Logo" />
+            <img class="product-slide" src="images/product-logo/2nd-image/1.jpeg" alt="Cable Ties" />
           </div>
           <div class="product-body">
             <h3 class="product-title">Cable Ties &amp; Fastening Systems</h3>
@@ -139,9 +138,8 @@ Components for Industrial Applications
         <a class="product-card" href="category.php?product=cable-routing-mounting-solutions">
           <div class="product-media product-slider" data-product-slider data-interval="2900">
             <div class="product-tag">Klip Sure</div>
-            <img class="product-slide is-active" src="images/product/WireHarnessClips&Clamps/Gemini_Generated_Image_7uw9rf7uw9rf7uw9.png" alt="Wire Harness Clips and Clamps" />
-            <img class="product-slide" src="images/product/WireHarnessClips&Clamps/Gemini_Generated_Image_7uw9rf7uw9rf7uw9.png" alt="Wire Harness Clips and Clamps" />
-            <img class="product-slide" src="images/product/WireHarnessClips&Clamps/IMG_132.JPG" alt="Wire Harness Clips and Clamps" />
+            <img class="product-slide product-slide-logo is-active" src="images/product-logo/logo-2.png" alt="Cable Routing Logo" />
+            <img class="product-slide" src="images/product-logo/2nd-image/2.jpeg" alt="Cable Routing" />
           </div>
           <div class="product-body">
             <h3 class="product-title">Cable Routing &amp; Mounting Solutions</h3>
@@ -154,9 +152,8 @@ Components for Industrial Applications
         <a class="product-card" href="category.php?product=pcb-support-systems">
           <div class="product-media product-slider" data-product-slider data-interval="3200">
             <div class="product-tag">Circuit ON</div>
-            <img class="product-slide is-active" src="images/product/CircuitBoardAccessories&Spacers/Gemini_Generated_Image_2u710t2u710t2u71.png" alt="Circuit Board Accessories and Spacers" />
-            <img class="product-slide" src="images/product/CircuitBoardAccessories&Spacers/Gemini_Generated_Image_h2tvih2tvih2tvih.png" alt="Circuit Board Accessories and Spacers" />
-            <img class="product-slide" src="images/product/CircuitBoardAccessories&Spacers/IMG_175.JPG" alt="Circuit Board Accessories and Spacers" />
+            <img class="product-slide product-slide-logo is-active" src="images/product-logo/logo-3.png" alt="PCB Support Logo" />
+            <img class="product-slide" src="images/product-logo/2nd-image/3.jpeg" alt="PCB Support Systems" />
           </div>
           <div class="product-body">
             <h3 class="product-title">PCB Support Systems</h3>
@@ -169,9 +166,8 @@ Components for Industrial Applications
         <a class="product-card" href="category.php?product=security-identification-systems">
           <div class="product-media product-slider" data-product-slider data-interval="2800">
             <div class="product-tag">Secure X</div>
-            <img class="product-slide is-active" src="images/product/SecuritySeals/Gemini_Generated_Image_2y7izh2y7izh2y7i.png" alt="Security Seals" />
-            <img class="product-slide" src="images/product/SecuritySeals/Gemini_Generated_Image_7zo6vi7zo6vi7zo6.png" alt="Security Seals" />
-            <img class="product-slide" src="images/product/SecuritySeals/SG_030.jpg" alt="Security Seals" />
+            <img class="product-slide product-slide-logo is-active" src="images/product-logo/logo-4.png" alt="Security Logo" />
+            <img class="product-slide" src="images/product-logo/2nd-image/4.jpeg" alt="Security & Identification" />
           </div>
           <div class="product-body">
             <h3 class="product-title">Security &amp; Identification Systems</h3>
@@ -184,9 +180,8 @@ Components for Industrial Applications
         <a class="product-card" href="category.php?product=cable-entry-sealing-solutions">
           <div class="product-media product-slider" data-product-slider data-interval="3000">
             <div class="product-tag">Seal Pro</div>
-            <img class="product-slide is-active" src="images/product/PolyamideCableGlands/Gemini_Generated_Image_j5k1hzj5k1hzj5k1.png" alt="Polyamide Cable Glands" />
-            <img class="product-slide" src="images/product/PolyamideCableGlands/Gemini_Generated_Image_mgoio9mgoio9mgoi.png" alt="Polyamide Cable Glands" />
-            <img class="product-slide" src="images/product/PolyamideCableGlands/SG_061.jpg" alt="Polyamide Cable Glands" />
+            <img class="product-slide product-slide-logo is-active" src="images/product-logo/logo-5.png" alt="Cable Entry Logo" />
+            <img class="product-slide" src="images/product-logo/2nd-image/5.jpeg" alt="Cable Entry & Sealing" />
           </div>
           <div class="product-body">
             <h3 class="product-title">Cable Entry &amp; Sealing Solutions</h3>
@@ -199,8 +194,8 @@ Components for Industrial Applications
         <a class="product-card" href="category.php?product=plastic-fasteners-riveting-systems">
           <div class="product-media product-slider" data-product-slider data-interval="3100">
             <div class="product-tag">Snap Fit</div>
-            <img class="product-slide is-active" src="images/product/stainlessSteel/Gemini_Generated_Image_evwiioevwiioevwi.png" alt="Stainless Steel Ties" />
-            <img class="product-slide" src="images/product/stainlessSteel/Gemini_Generated_Image_isswuoisswuoissw.png" alt="Stainless Steel Ties" />
+            <img class="product-slide product-slide-logo is-active" src="images/product-logo/logo-6.png" alt="Plastic Fasteners Logo" />
+            <img class="product-slide" src="images/product-logo/2nd-image/6.jpeg" alt="Plastic Fasteners" />
           </div>
           <div class="product-body">
             <h3 class="product-title">Plastic Fasteners &amp; Riveting Systems</h3>
@@ -213,9 +208,8 @@ Components for Industrial Applications
         <a class="product-card" href="category.php?product=cable-protection-systems">
           <div class="product-media product-slider" data-product-slider data-interval="2700">
             <div class="product-tag">Flexi-Guard</div>
-            <img class="product-slide is-active" src="images/product/CableProtection/Gemini_Generated_Image_2yjboh2yjboh2yjb.png" alt="Cable Protection" />
-            <img class="product-slide" src="images/product/CableProtection/Gemini_Generated_Image_cmcyq5cmcyq5cmcy.png" alt="Cable Protection" />
-            <img class="product-slide" src="images/product/CableProtection/IMG_115.jpg" alt="Cable Protection" />
+            <img class="product-slide product-slide-logo is-active" src="images/product-logo/logo-7.png" alt="Cable Protection Logo" />
+            <img class="product-slide" src="images/product-logo/2nd-image/7.jpeg" alt="Cable Protection" />
           </div>
           <div class="product-body">
             <h3 class="product-title">Cable Protection Systems</h3>
@@ -228,8 +222,7 @@ Components for Industrial Applications
         <a class="product-card" href="sub-categories.php?product=cord-management&amp;category=cord-organix">
           <div class="product-media product-slider" data-product-slider data-interval="2950">
             <div class="product-tag">Cord Organix</div>
-            <img class="product-slide is-active" src="images/product/WireManagement/Gemini_Generated_Image_19k86319k86319k8.png" alt="Wire Management" />
-            <img class="product-slide" src="images/product/WireManagement/Gemini_Generated_Image_dur0oidur0oidur0.png" alt="Wire Management" />
+            <img class="product-slide product-slide-logo is-active" src="images/product-logo/logo-8.png" alt="Cord Management Logo" />
           </div>
           <div class="product-body">
             <h3 class="product-title">Cord Management</h3>
@@ -242,9 +235,8 @@ Components for Industrial Applications
         <a class="product-card" href="sub-categories.php?product=connector-accessories&amp;category=connector-accessories">
           <div class="product-media product-slider" data-product-slider data-interval="2850">
             <div class="product-tag">Connectivity</div>
-            <img class="product-slide is-active" src="images/product/TieMounts/Gemini_Generated_Image_2l1gis2l1gis2l1g.png" alt="Tie Mounts" />
-            <img class="product-slide" src="images/product/TieMounts/Gemini_Generated_Image_manrknmanrknmanr.png" alt="Tie Mounts" />
-            <img class="product-slide" src="images/product/TieMounts/IMG_167.JPG" alt="Tie Mounts" />
+            <img class="product-slide product-slide-logo is-active" src="images/product-logo/logo-9.png" alt="Connector Accessories Logo" />
+            <img class="product-slide" src="images/product-logo/2nd-image/9.jpeg" alt="Connector Accessories" />
           </div>
           <div class="product-body">
             <h3 class="product-title">Connector Accessories</h3>
@@ -338,7 +330,7 @@ Components for Industrial Applications
         <a class="industry-card industry-card-featured" href="#contact">
           <span class="industry-media industry-slider" data-industry-slider data-interval="2600">
             <img class="industry-slide is-active" src="images/industry/Manufacturing&IndustrialEquipment/1.webp" alt="Manufacturing and Industrial Equipment" />
-            <img class="industry-slide" src="images/industry/Manufacturing&IndustrialEquipment/Gemini_Generated_Image_s2vb43s2vb43s2vb.png" alt="Manufacturing and Industrial Equipment" />
+            <img class="industry-slide" src="images/industry/2nd-image/Manufacturing-&-Industrial-Equipment/1.png" alt="Manufacturing and Industrial Equipment" />
           </span>
           <span class="industry-body">
             <span class="industry-title">Manufacturing &amp; Industrial Equipment</span>
@@ -350,7 +342,6 @@ Components for Industrial Applications
         <a class="industry-card industry-card-featured" href="#contact">
           <span class="industry-media industry-slider" data-industry-slider data-interval="2900">
             <img class="industry-slide is-active" src="images/industry/Automotive&EVComponents/1.jpg" alt="Automotive and EV Components" />
-            <img class="industry-slide" src="images/industry/Automotive&EVComponents/Gemini_Generated_Image_s64ehps64ehps64e.png" alt="Automotive and EV Components" />
           </span>
           <span class="industry-body">
             <span class="industry-title">Automotive &amp; EV Components</span>
@@ -362,7 +353,7 @@ Components for Industrial Applications
         <a class="industry-card industry-card-featured" href="#contact">
           <span class="industry-media industry-slider" data-industry-slider data-interval="3100">
             <img class="industry-slide is-active" src="images/industry/ElectricalPanels&ControlSystems/1.webp" alt="Electrical Panels and Control Systems" />
-            <img class="industry-slide" src="images/industry/ElectricalPanels&ControlSystems/Gemini_Generated_Image_lu7enrlu7enrlu7e.png" alt="Electrical Panels and Control Systems" />
+            <img class="industry-slide" src="images/industry/2nd-image/Electrical-Panels-&-Control-Systems/1.png" alt="Electrical Panels and Control Systems" />
           </span>
           <span class="industry-body">
             <span class="industry-title">Electrical Panels &amp; Control Systems</span>
@@ -374,7 +365,7 @@ Components for Industrial Applications
         <a class="industry-card industry-card-featured" href="#contact">
           <span class="industry-media industry-slider" data-industry-slider data-interval="3000">
             <img class="industry-slide is-active" src="images/industry/PowerPlants&EnergySector/1.webp" alt="Power Plants and Energy Sector" />
-            <img class="industry-slide" src="images/industry/PowerPlants&EnergySector/Gemini_Generated_Image_mrqf0bmrqf0bmrqf.png" alt="Power Plants and Energy Sector" />
+            <img class="industry-slide" src="images/industry/2nd-image/Power-plants-&-energy-sector/1.png" alt="Power Plants and Energy Sector" />
           </span>
           <span class="industry-body">
             <span class="industry-title">Power Plants &amp; Energy Sector</span>
@@ -386,7 +377,7 @@ Components for Industrial Applications
         <a class="industry-card industry-card-featured" href="#contact">
           <span class="industry-media industry-slider" data-industry-slider data-interval="2800">
             <img class="industry-slide is-active" src="images/industry/Solar&RenewableEnergy/1.jpg" alt="Solar and Renewable Energy" />
-            <img class="industry-slide" src="images/industry/Solar&RenewableEnergy/Gemini_Generated_Image_tfsqijtfsqijtfsq.png" alt="Solar and Renewable Energy" />
+            <img class="industry-slide" src="images/industry/2nd-image/Solar-&-Renewable-energy/1.png" alt="Solar and Renewable Energy" />
           </span>
           <span class="industry-body">
             <span class="industry-title">Solar &amp; Renewable Energy</span>
@@ -398,7 +389,7 @@ Components for Industrial Applications
         <a class="industry-card industry-card-featured" href="#contact">
           <span class="industry-media industry-slider" data-industry-slider data-interval="3200">
             <img class="industry-slide is-active" src="images/industry/Telecommunications/1.jpg" alt="Telecommunications" />
-            <img class="industry-slide" src="images/industry/Telecommunications/Gemini_Generated_Image_84mo5684mo5684mo.png" alt="Telecommunications" />
+            <img class="industry-slide" src="images/industry/2nd-image/Telecommunication/1.png" alt="Telecommunications" />
           </span>
           <span class="industry-body">
             <span class="industry-title">Telecommunications</span>
@@ -433,7 +424,7 @@ Components for Industrial Applications
               <a class="industry-card" href="#contact">
                 <span class="industry-media industry-slider" data-industry-slider data-interval="2600">
                   <img class="industry-slide is-active" src="images/industry/Manufacturing&IndustrialEquipment/1.webp" alt="Manufacturing and Industrial Equipment" />
-                  <img class="industry-slide" src="images/industry/Manufacturing&IndustrialEquipment/Gemini_Generated_Image_s2vb43s2vb43s2vb.png" alt="Manufacturing and Industrial Equipment" />
+                  <img class="industry-slide" src="images/industry/2nd-image/Manufacturing-&-Industrial-Equipment/1.png" alt="Manufacturing and Industrial Equipment" />
                 </span>
                 <span class="industry-body">
                   <span class="industry-title">Manufacturing &amp; Industrial Equipment</span>
@@ -445,7 +436,6 @@ Components for Industrial Applications
               <a class="industry-card" href="#contact">
                 <span class="industry-media industry-slider" data-industry-slider data-interval="2900">
                   <img class="industry-slide is-active" src="images/industry/Automotive&EVComponents/1.jpg" alt="Automotive and EV Components" />
-                  <img class="industry-slide" src="images/industry/Automotive&EVComponents/Gemini_Generated_Image_s64ehps64ehps64e.png" alt="Automotive and EV Components" />
                 </span>
                 <span class="industry-body">
                   <span class="industry-title">Automotive &amp; EV Components</span>
@@ -457,7 +447,7 @@ Components for Industrial Applications
               <a class="industry-card" href="#contact">
                 <span class="industry-media industry-slider" data-industry-slider data-interval="3100">
                   <img class="industry-slide is-active" src="images/industry/ElectricalPanels&ControlSystems/1.webp" alt="Electrical Panels and Control Systems" />
-                  <img class="industry-slide" src="images/industry/ElectricalPanels&ControlSystems/Gemini_Generated_Image_lu7enrlu7enrlu7e.png" alt="Electrical Panels and Control Systems" />
+                  <img class="industry-slide" src="images/industry/2nd-image/Electrical-Panels-&-Control-Systems/1.png" alt="Electrical Panels and Control Systems" />
                 </span>
                 <span class="industry-body">
                   <span class="industry-title">Electrical Panels &amp; Control Systems</span>
@@ -469,7 +459,7 @@ Components for Industrial Applications
               <a class="industry-card" href="#contact">
                 <span class="industry-media industry-slider" data-industry-slider data-interval="3000">
                   <img class="industry-slide is-active" src="images/industry/PowerPlants&EnergySector/1.webp" alt="Power Plants and Energy Sector" />
-                  <img class="industry-slide" src="images/industry/PowerPlants&EnergySector/Gemini_Generated_Image_mrqf0bmrqf0bmrqf.png" alt="Power Plants and Energy Sector" />
+                  <img class="industry-slide" src="images/industry/2nd-image/Power-plants-&-energy-sector/1.png" alt="Power Plants and Energy Sector" />
                 </span>
                 <span class="industry-body">
                   <span class="industry-title">Power Plants &amp; Energy Sector</span>
@@ -481,7 +471,7 @@ Components for Industrial Applications
               <a class="industry-card" href="#contact">
                 <span class="industry-media industry-slider" data-industry-slider data-interval="2800">
                   <img class="industry-slide is-active" src="images/industry/Solar&RenewableEnergy/1.jpg" alt="Solar and Renewable Energy" />
-                  <img class="industry-slide" src="images/industry/Solar&RenewableEnergy/Gemini_Generated_Image_tfsqijtfsqijtfsq.png" alt="Solar and Renewable Energy" />
+                  <img class="industry-slide" src="images/industry/2nd-image/Solar-&-Renewable-energy/1.png" alt="Solar and Renewable Energy" />
                 </span>
                 <span class="industry-body">
                   <span class="industry-title">Solar &amp; Renewable Energy</span>
@@ -493,7 +483,7 @@ Components for Industrial Applications
               <a class="industry-card" href="#contact">
                 <span class="industry-media industry-slider" data-industry-slider data-interval="3050">
                   <img class="industry-slide is-active" src="images/industry/Railways&Infrastructure/1.jpg" alt="Railways and Infrastructure" />
-                  <img class="industry-slide" src="images/industry/Railways&Infrastructure/Gemini_Generated_Image_s8qtlrs8qtlrs8qt.png" alt="Railways and Infrastructure" />
+                  <img class="industry-slide" src="images/industry/2nd-image/Railways-and-Infrastucture/1.png" alt="Railways and Infrastructure" />
                 </span>
                 <span class="industry-body">
                   <span class="industry-title">Railways &amp; Infrastructure</span>
@@ -505,7 +495,7 @@ Components for Industrial Applications
               <a class="industry-card" href="#contact">
                 <span class="industry-media industry-slider" data-industry-slider data-interval="2950">
                   <img class="industry-slide is-active" src="images/industry/Marine&Shipbuilding/1.jpg" alt="Marine and Shipbuilding" />
-                  <img class="industry-slide" src="images/industry/Marine&Shipbuilding/Gemini_Generated_Image_uv4qpouv4qpouv4q.png" alt="Marine and Shipbuilding" />
+                  <img class="industry-slide" src="images/industry/2nd-image/Marine-&-Shipbuilding/1.png" alt="Marine and Shipbuilding" />
                 </span>
                 <span class="industry-body">
                   <span class="industry-title">Marine &amp; Shipbuilding</span>
@@ -517,7 +507,7 @@ Components for Industrial Applications
               <a class="industry-card" href="#contact">
                 <span class="industry-media industry-slider" data-industry-slider data-interval="3200">
                   <img class="industry-slide is-active" src="images/industry/Telecommunications/1.jpg" alt="Telecommunications" />
-                  <img class="industry-slide" src="images/industry/Telecommunications/Gemini_Generated_Image_84mo5684mo5684mo.png" alt="Telecommunications" />
+                  <img class="industry-slide" src="images/industry/2nd-image/Telecommunication/1.png" alt="Telecommunications" />
                 </span>
                 <span class="industry-body">
                   <span class="industry-title">Telecommunications</span>
@@ -529,7 +519,7 @@ Components for Industrial Applications
               <a class="industry-card" href="#contact">
                 <span class="industry-media industry-slider" data-industry-slider data-interval="2850">
                   <img class="industry-slide is-active" src="images/industry/Pharmaceuticals&Chemicals/1.jpg" alt="Pharmaceuticals and Chemicals" />
-                  <img class="industry-slide" src="images/industry/Pharmaceuticals&Chemicals/Gemini_Generated_Image_u8k1mju8k1mju8k1.png" alt="Pharmaceuticals and Chemicals" />
+                  <img class="industry-slide" src="images/industry/2nd-image/Pharmaceuticals-&-Chemicals/1.png" alt="Pharmaceuticals and Chemicals" />
                 </span>
                 <span class="industry-body">
                   <span class="industry-title">Pharmaceuticals &amp; Chemicals</span>
@@ -541,7 +531,7 @@ Components for Industrial Applications
               <a class="industry-card" href="#contact">
                 <span class="industry-media industry-slider" data-industry-slider data-interval="3000">
                   <img class="industry-slide is-active" src="images/industry/ConsumerElectronics&Appliances/1.jpg" alt="Consumer Electronics and Appliances" />
-                  <img class="industry-slide" src="images/industry/ConsumerElectronics&Appliances/Gemini_Generated_Image_xdjofpxdjofpxdjo.png" alt="Consumer Electronics and Appliances" />
+                  <img class="industry-slide" src="images/industry/2nd-image/Electronic-&-applianes/1.png" alt="Consumer Electronics and Appliances" />
                 </span>
                 <span class="industry-body">
                   <span class="industry-title">Consumer Electronics &amp; Appliances</span>
@@ -553,7 +543,7 @@ Components for Industrial Applications
               <a class="industry-card" href="#contact">
                 <span class="industry-media industry-slider" data-industry-slider data-interval="3000">
                   <img class="industry-slide is-active" src="images/industry/Logistics&AssetManagement/1.webp" alt="Logistics and Asset Management" />
-                  <img class="industry-slide" src="images/industry/Logistics&AssetManagement/2.png" alt="Logistics and Asset Management" />
+                  <img class="industry-slide" src="images/industry/2nd-image/Logistic-&-Asset-Management/1.png" alt="Logistics and Asset Management" />
                 </span>
                 <span class="industry-body">
                   <span class="industry-title">Logistics &amp; Asset Management</span>
