@@ -6284,6 +6284,7 @@ body.media-lightbox-open {
   border: 1px solid rgba(17, 43, 78, .08);
   box-shadow: 0 20px 56px rgba(17, 43, 78, .08);
   padding: 28px;
+  border-radius: 12px;
 }
 
 .kwiklok-intro {
@@ -6323,6 +6324,8 @@ body.media-lightbox-open {
   gap: 0;
   margin-top: 22px;
   border: 1px solid rgba(17, 43, 78, .10);
+  border-radius: 12px;
+  overflow: hidden;
 }
 
 .kwiklok-image-card,
@@ -6332,6 +6335,16 @@ body.media-lightbox-open {
 .kwiklok-mini-card,
 .kwiklok-brand-card {
   background: #fff;
+}
+
+.kwiklok-image-card,
+.kwiklok-feature-card,
+.kwiklok-spec-card,
+.kwiklok-performance-card,
+.kwiklok-mini-card,
+.kwiklok-brand-card,
+.kwiklok-spec-note {
+  border-radius: 12px;
 }
 
 /* .kwiklok-image-card {
@@ -6455,6 +6468,18 @@ body.media-lightbox-open {
   font-weight: 800;
 }
 
+.kwiklok-feature-card h2,
+.kwiklok-spec-card h2,
+.kwiklok-mini-card h3 {
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.kwiklok-spec-note h3,
+.kwiklok-mini-card h3 {
+  font-size: 18px;
+}
+
 .kwiklok-subsection-heading {
   margin-top: 18px !important;
   padding-top: 8px;
@@ -6486,12 +6511,12 @@ body.media-lightbox-open {
 }
 
 .kwiklok-feature-item h3,
-.kwiklok-mini-card h3,
 .kwiklok-brand-card h3 {
   margin: 0 0 4px;
   color: var(--brand-navy);
   font-size: 15px;
-  font-weight: 800;
+  font-weight: 500;
+  line-height: 2;
 }
 
 .kwiklok-feature-item p,
@@ -6538,6 +6563,12 @@ body.media-lightbox-open {
   border-top: 1px solid rgba(17, 43, 78, .08);
 }
 
+.kwiklok-spec-footer.kwiklok-colours-apps-row {
+  border-top: 0;
+  padding: 0;
+  gap: 18px;
+}
+
 .kwiklok-color-row {
   width: 100%;
   gap: 8px;
@@ -6549,14 +6580,14 @@ body.media-lightbox-open {
   min-height: 100%;
   padding: 16px 18px;
   border: 1px solid rgba(17, 43, 78, .1);
-  border-radius: 14px;
+  border-radius: 12px;
   background: linear-gradient(180deg, rgba(245, 248, 252, .9) 0%, rgba(255, 255, 255, .98) 100%);
 }
 
 .kwiklok-spec-note h3 {
   margin: 0 0 12px;
   color: var(--brand-navy);
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 800;
   line-height: 1.15;
 }
@@ -6610,7 +6641,7 @@ body.media-lightbox-open {
 .kwiklok-colours-apps-row .kwiklok-spec-note {
   background: #fff;
   border: 1px solid rgba(17, 43, 78, .10);
-  border-radius: 8px;
+  border-radius: 12px;
   padding: 18px;
 }
 
@@ -6686,7 +6717,7 @@ body.media-lightbox-open {
 }
 
 .kwiklok-mini-card h3 {
-  font-size: 26px;
+  font-size: 18px;
   letter-spacing: -.04em;
 }
 

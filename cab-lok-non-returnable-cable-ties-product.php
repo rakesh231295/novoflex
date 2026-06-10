@@ -18,10 +18,13 @@ include 'header.php';
                 <section class="kwiklok-intro">
                     <h1 class="kwiklok-title">NOVOFLEX | Cab-Lok Non-Returnable Cable Ties</h1>
                     <p class="kwiklok-lead">
-                        In critical installations, slippage or loosening is not acceptable. Fastening systems must deliver permanent, high-strength locking that remains stable under load and environmental exposure.
+                        Permanent High-Strength Cable Fastening
                     </p>
                     <p class="kwiklok-copy">
-                        Novoflex Cab-Lok Non-Returnable Cable Ties are engineered from UL-listed Nylon 6.6 with a precision locking head mechanism that ensures a secure, one-way ratchet action. Once tightened, the tie cannot loosen or reopen, providing dependable long-term fastening across electrical, industrial, and infrastructure applications. Designed for high tensile strength and environmental resistance, these ties deliver consistent performance where security and reliability are critical.
+                        Critical fastening applications where permanent cable retention, high tensile strength, and long-term locking stability are essential. Designed for electrical harnessing, industrial cable routing, infrastructure installations, panel assembly, and outdoor applications where fastening integrity must resist vibration, environmental exposure, and sustained mechanical load.
+                    </p>
+                    <p class="kwiklok-copy">
+                        In demanding installations, fastening failure rarely begins with the cable itself — it begins at the locking mechanism. Under constant load, vibration, and thermal cycling, and environmental exposure, unreliable fastening systems gradually lose holding integrity, leading to cable displacement, harness instability, and operational risk. Novoflex Cab-Lok Non-Returnable Cable Ties are engineered to provide permanent one-way locking with high mechanical strength, ensuring secure fastening that remains stable throughout the service life of the installation.
                     </p>
 
                     <div class="product-details-actions kwiklok-actions">
@@ -40,58 +43,65 @@ include 'header.php';
                         <h2>Key Features</h2>
                         <div class="kwiklok-feature-list">
                             <div class="kwiklok-feature-item">
-                                <span class="kwiklok-feature-icon"><i class="bi bi-shield-check"></i></span>
+                                <span class="kwiklok-feature-icon"><i class="bi bi-check-circle-fill"></i></span>
                                 <div>
-                                    <h3>Non-Returnable Locking Mechanism</h3>
-                                    <p>One-way ratchet design ensures permanent fastening; removal requires cutting.</p>
+                                    <h3>Non-returnable one-way locking mechanism.</h3>
+                                    <p></p>
                                 </div>
                             </div>
                             <div class="kwiklok-feature-item">
-                                <span class="kwiklok-feature-icon"><i class="bi bi-lightning-charge"></i></span>
+                                <span class="kwiklok-feature-icon"><i class="bi bi-check-circle-fill"></i></span>
                                 <div>
-                                    <h3>High Tensile Strength</h3>
-                                    <p>Engineered to withstand loads up to 105 kg, depending on the selected variant.</p>
+                                    <h3>High tensile strength up to 105 kg.</h3>
+                                    <p></p>
                                 </div>
                             </div>
                             <div class="kwiklok-feature-item">
-                                <span class="kwiklok-feature-icon"><i class="bi bi-upc-scan"></i></span>
+                                <span class="kwiklok-feature-icon"><i class="bi bi-check-circle-fill"></i></span>
                                 <div>
-                                    <h3>Material: UL-Listed Nylon 6.6</h3>
-                                    <p>Provides durability, mechanical strength, and long-term fastening stability.</p>
+                                    <h3>UL-listed Nylon 6.6 construction.</h3>
+                                    <p></p>
                                 </div>
                             </div>
                             <div class="kwiklok-feature-item">
-                                <span class="kwiklok-feature-icon"><i class="bi bi-box-seam"></i></span>
+                                <span class="kwiklok-feature-icon"><i class="bi bi-check-circle-fill"></i></span>
                                 <div>
-                                    <h3>Flammability Rating</h3>
-                                    <p>Complies with UL94 V-2 standards for dependable performance in demanding environments.</p>
+                                    <h3>Permanent tamper-resistant fastening.</h3>
+                                    <p></p>
                                 </div>
                             </div>
                             <div class="kwiklok-feature-item">
-                                <span class="kwiklok-feature-icon"><i class="bi bi-cloud-sun"></i></span>
+                                <span class="kwiklok-feature-icon"><i class="bi bi-check-circle-fill"></i></span>
                                 <div>
-                                    <h3>Environmental Resistance</h3>
-                                    <p>Resistant to fungi, corrosion, and most acids for dependable field performance.</p>
+                                    <h3>Resistant to fungi, corrosion, and most acids.</h3>
+                                    <p></p>
                                 </div>
                             </div>
                             <div class="kwiklok-feature-item">
-                                <span class="kwiklok-feature-icon"><i class="bi bi-thermometer-half"></i></span>
+                                <span class="kwiklok-feature-icon"><i class="bi bi-check-circle-fill"></i></span>
                                 <div>
-                                    <h3>Temperature Performance</h3>
-                                    <p>Continuous: -25&deg;C to +85&deg;C. Intermittent: up to +105&deg;C for 500 hours.</p>
+                                    <h3>UV Black variant for outdoor applications.</h3>
+                                    <p></p>
                                 </div>
                             </div>
                             <div class="kwiklok-feature-item">
-                                <span class="kwiklok-feature-icon"><i class="bi bi-palette"></i></span>
+                                <span class="kwiklok-feature-icon"><i class="bi bi-check-circle-fill"></i></span>
                                 <div>
-                                    <h3>Colour Options</h3>
-                                    <p>Standard: Natural White and UV Black. Custom colours available with MOQ applicability.</p>
+                                    <h3>Flame-retardant performance compliant with UL94 V-2.</h3>
+                                    <p></p>
+                                </div>
+                            </div>
+                            <div class="kwiklok-feature-item">
+                                <span class="kwiklok-feature-icon"><i class="bi bi-check-circle-fill"></i></span>
+                                <div>
+                                    <h3>Designed for long-term load stability.</h3>
+                                    <p></p>
                                 </div>
                             </div>
                         </div>
                     </section>
 
-                    </section>div>
+                    </section>
                 </section>
 
                 <section class="kwiklok-overview-grid kwiklok-tech-spec-row">
@@ -102,9 +112,16 @@ include 'header.php';
                         <div class="kwiklok-feature-card kwiklok-feature-card-inner">
                             <h2>Technical Specifications</h2>
                             <ul class="detail-list kwiklok-bullet-list">
-                                <li><strong>Low Smoke Test:</strong> ASTM E662 compliant</li>
-                                <li><strong>Oxygen Index:</strong> 28 (BS ISO 4589)</li>
-                                <li><strong>Burning Fume Toxicity:</strong> Meets BSS 7239 requirements</li>
+                                <li><strong>Product Type:</strong> Non-Returnable Cable Tie</li>
+                                <li><strong>Material:</strong> UL-Listed Nylon 6.6</li>
+                                <li><strong>Locking System:</strong> One-Way Ratchet Mechanism</li>
+                                <li><strong>Tensile Strength:</strong> Up to 105 kg (Variant-Dependent)</li>
+                                <li><strong>Flammability Rating:</strong> UL94 V-2</li>
+                                <li><strong>Continuous Operating Temperature:</strong> -25&deg;C to +85&deg;C</li>
+                                <li><strong>Intermittent Temperature Resistance:</strong> Up to +105&deg;C (500 Hours)</li>
+                                <li><strong>Environmental Resistance:</strong> Resistant to Fungus, Corrosion &amp; Most Acids</li>
+                                <li><strong>Standard Colours:</strong> Natural White &amp; UV Black</li>
+                                <li><strong>Custom Colours:</strong> Red, Yellow, Blue, Green (MOQ Applicable)</li>
                             </ul>
                         </div>
                     </div>
@@ -124,7 +141,7 @@ include 'header.php';
                                     <th>Max Bundle Dia<br>- mm</th>
                                     <th>Standard Packing<br>(Nos)</th>
                                     <th>Quantity</th>
-                                    <th>#</th>
+                                    <th>Select</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -212,11 +229,14 @@ include 'header.php';
                     <div class="kwiklok-spec-note">
                         <h3>Applications</h3>
                         <ul class="detail-list small kwiklok-bullet-list">
-                            <li>Electrical &amp; Industrial Cable Bundling</li>
-                            
-                            <li>Wiring Harness &amp; Panel Assembly</li>
-                            <li>Infrastructure &amp; Construction Installations</li>
-                            <li>Outdoor Applications for UV Black variants</li>
+                            <li>Electrical and industrial cable bundling</li>
+                            <li>Wiring harness and panel assembly</li>
+                            <li>Infrastructure and construction installations</li>
+                            <li>Outdoor cable routing systems</li>
+                            <li>Telecom and networking systems</li>
+                            <li>Automotive electrical harnessing</li>
+                            <li>Control panel organization</li>
+                            <li>OEM electrical assemblies</li>
                             <li>Applications requiring tamper-resistant fastening</li>
                         </ul>
                     </div>
@@ -226,19 +246,23 @@ include 'header.php';
                     <div class="kwiklok-side-stack">
                         <div class="kwiklok-use-grid">
                             <section class="kwiklok-mini-card">
-                                <h3>USE WHEN</h3>
+                                <h3>Use When</h3>
                                 <ul class="detail-list small kwiklok-bullet-list">
-                                    <li>Permanent, non-releasable fastening is required.</li>
+                                    <li>Permanent non-releasable fastening is required.</li>
                                     <li>High tensile strength is critical.</li>
-                                    <li>Long-term reliability under load is essential.</li>
+                                    <li>Long-term load stability is essential.</li>
+                                    <li>Vibration-resistant cable retention is necessary.</li>
+                                    <li>Outdoor UV-resistant fastening is required.</li>
                                 </ul>
                             </section>
 
                             <section class="kwiklok-mini-card">
-                                <h3>AVOID WHEN</h3>
+                                <h3>Avoid When</h3>
                                 <ul class="detail-list small kwiklok-bullet-list">
-                                    <li>Reusability or frequent adjustments are needed.</li>
-                                    <li>Temporary bundling is required.</li>
+                                    <li>Reusable fastening systems are preferred.</li>
+                                    <li>Frequent cable modifications are expected.</li>
+                                    <li>Temporary bundling applications are involved.</li>
+                                    <li>Repeated servicing access is necessary.</li>
                                 </ul>
                             </section>
                         </div>
@@ -247,7 +271,7 @@ include 'header.php';
                             <h2>Why Novoflex</h2>
                             <!-- <h3>Locking Integrity That Lasts</h3> -->
                             <p>
-                                In fastening systems, failure often begins at the locking point. Novoflex Cab-Lok ties are built to ensure consistent locking integrity, high load resistance, and zero slippage, even under demanding working conditions.
+                                In fastening systems, long-term reliability depends on consistent locking integrity under real operational stress. NOVOFLEX engineers industrial fastening and cable management solutions designed for permanent retention strength, installation reliability, and environmental durability across critical industrial and infrastructure applications.
                             </p>
                         </section>
                     </div>
