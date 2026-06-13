@@ -41,64 +41,16 @@ include 'header.php';
                     <section class="kwiklok-right-col">
                     <section class="kwiklok-feature-card kwiklok-feature-card-inner">
                         <h2>Key Features</h2>
-                        <div class="kwiklok-feature-list">
-                            <div class="kwiklok-feature-item">
-                                <span class="kwiklok-feature-icon"><i class="bi bi-check-circle-fill"></i></span>
-                                <div>
-                                    <h3>Non-returnable one-way locking mechanism.</h3>
-                                    <p></p>
-                                </div>
-                            </div>
-                            <div class="kwiklok-feature-item">
-                                <span class="kwiklok-feature-icon"><i class="bi bi-check-circle-fill"></i></span>
-                                <div>
-                                    <h3>High tensile strength up to 105 kg.</h3>
-                                    <p></p>
-                                </div>
-                            </div>
-                            <div class="kwiklok-feature-item">
-                                <span class="kwiklok-feature-icon"><i class="bi bi-check-circle-fill"></i></span>
-                                <div>
-                                    <h3>UL-listed Nylon 6.6 construction.</h3>
-                                    <p></p>
-                                </div>
-                            </div>
-                            <div class="kwiklok-feature-item">
-                                <span class="kwiklok-feature-icon"><i class="bi bi-check-circle-fill"></i></span>
-                                <div>
-                                    <h3>Permanent tamper-resistant fastening.</h3>
-                                    <p></p>
-                                </div>
-                            </div>
-                            <div class="kwiklok-feature-item">
-                                <span class="kwiklok-feature-icon"><i class="bi bi-check-circle-fill"></i></span>
-                                <div>
-                                    <h3>Resistant to fungi, corrosion, and most acids.</h3>
-                                    <p></p>
-                                </div>
-                            </div>
-                            <div class="kwiklok-feature-item">
-                                <span class="kwiklok-feature-icon"><i class="bi bi-check-circle-fill"></i></span>
-                                <div>
-                                    <h3>UV Black variant for outdoor applications.</h3>
-                                    <p></p>
-                                </div>
-                            </div>
-                            <div class="kwiklok-feature-item">
-                                <span class="kwiklok-feature-icon"><i class="bi bi-check-circle-fill"></i></span>
-                                <div>
-                                    <h3>Flame-retardant performance compliant with UL94 V-2.</h3>
-                                    <p></p>
-                                </div>
-                            </div>
-                            <div class="kwiklok-feature-item">
-                                <span class="kwiklok-feature-icon"><i class="bi bi-check-circle-fill"></i></span>
-                                <div>
-                                    <h3>Designed for long-term load stability.</h3>
-                                    <p></p>
-                                </div>
-                            </div>
-                        </div>
+                        <ul class="detail-list kwiklok-bullet-list">
+                            <li>Non-returnable one-way locking mechanism.</li>
+                            <li>High tensile strength up to 105 kg.</li>
+                            <li>UL-listed Nylon 6.6 construction.</li>
+                            <li>Permanent tamper-resistant fastening.</li>
+                            <li>Resistant to fungi, corrosion, and most acids.</li>
+                            <li>UV Black variant for outdoor applications.</li>
+                            <li>Flame-retardant performance compliant with UL94 V-2.</li>
+                            <li>Designed for long-term load stability.</li>
+                        </ul>
                     </section>
 
                     </section>

@@ -123,11 +123,11 @@ include 'header.php';
           <p>We are always looking for talented and passionate individuals to join our team.</p>
           <a class="btn btn-outline-light" href="#submit-application">Submit Your Resume <span aria-hidden="true">-></span></a>
         </div>
-        <a class="resume-email" href="mailto:careers@novoflex.com">
+        <a class="resume-email" href="mailto:hr@novoflex.in">
           <span class="career-icon" aria-hidden="true">
             <svg viewBox="0 0 24 24"><path d="m22 7-8.9 5.7a2 2 0 0 1-2.2 0L2 7"/><rect x="2" y="4" width="20" height="16" rx="2"/></svg>
           </span>
-          careers@novoflex.com
+          hr@novoflex.in
         </a>
       </div>
     </div>

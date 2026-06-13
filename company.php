@@ -248,34 +248,34 @@ include 'header.php';
         </div>
         <div class="company-values-row">
           <div class="company-value-item">
-            <div class="company-value-icon"><i class="bi bi-shield-check"></i></div>
-            <h4>Integrity</h4>
-            <p>We believe in honesty and transparency.</p>
-          </div>
-          <div class="company-value-item">
-            <div class="company-value-icon"><i class="bi bi-gear"></i></div>
-            <h4>Quality</h4>
-            <p>We never compromise on quality.</p>
-          </div>
-          <div class="company-value-item">
-            <div class="company-value-icon"><i class="bi bi-lightbulb"></i></div>
-            <h4>Innovation</h4>
-            <p>We innovate to solve real-world challenges.</p>
-          </div>
-          <div class="company-value-item">
-            <div class="company-value-icon"><i class="bi bi-person-check"></i></div>
-            <h4>Customer Focus</h4>
-            <p>Our customers' success is our priority.</p>
+            <div class="company-value-icon"><i class="bi bi-patch-check"></i></div>
+            <h4>Quality Without Compromise</h4>
+            <p>We believe consistent quality is the foundation of long-term trust and manufacturing excellence.</p>
           </div>
           <div class="company-value-item">
             <div class="company-value-icon"><i class="bi bi-people"></i></div>
-            <h4>Teamwork</h4>
-            <p>We achieve more together.</p>
+            <h4>Customer Commitment</h4>
+            <p>We build relationships that go beyond transactions, working closely with customers as long-term partners.</p>
           </div>
           <div class="company-value-item">
-            <div class="company-value-icon"><i class="bi bi-tree"></i></div>
-            <h4>Sustainability</h4>
-            <p>We care for the environment and future generations.</p>
+            <div class="company-value-icon"><i class="bi bi-gear-wide-connected"></i></div>
+            <h4>Engineering Discipline</h4>
+            <p>Precision, reliability, and continuous improvement guide everything we design and manufacture.</p>
+          </div>
+          <div class="company-value-item">
+            <div class="company-value-icon"><i class="bi bi-shield-check"></i></div>
+            <h4>Integrity in Every Interaction</h4>
+            <p>Transparency and accountability define how we work—with customers, suppliers, and our team.</p>
+          </div>
+          <div class="company-value-item">
+            <div class="company-value-icon"><i class="bi bi-truck"></i></div>
+            <h4>Reliability in Delivery</h4>
+            <p>Dependable supply and responsiveness remain central to our service philosophy.</p>
+          </div>
+          <div class="company-value-item">
+            <div class="company-value-icon"><i class="bi bi-lightbulb"></i></div>
+            <h4>Continuous Growth &amp; Innovation</h4>
+            <p>We continuously evolve our products, processes, and infrastructure to meet future industry needs.</p>
           </div>
         </div>
       </div>
