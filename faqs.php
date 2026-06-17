@@ -4,14 +4,14 @@ include 'header.php';
 ?>
 
 <main class="page-shell">
-  <section class="page-hero">
+  <section class="page-hero faq-contact-hero">
     <div class="container">
       <div class="row page-hero-grid g-4">
         <div class="col-lg-7">
           <div class="page-hero-content">
-            <nav class="page-breadcrumb" aria-label="Breadcrumb">
+            <nav class="page-breadcrumb faq-breadcrumb" aria-label="Breadcrumb">
               <a href="index.php">Home</a>
-              <span>/</span>
+              <span>&gt;</span>
               <span aria-current="page">FAQs</span>
             </nav>
             <span class="page-kicker">FAQs</span>

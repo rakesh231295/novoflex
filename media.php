@@ -8,6 +8,11 @@ include 'header.php';
     <div class="container">
       <div class="media-events-hero-card">
         <div class="media-events-hero-content">
+          <nav class="media-events-breadcrumb" aria-label="Breadcrumb">
+            <a href="index.php">Home</a>
+            <span>&gt;</span>
+            <span aria-current="page">Media &amp; Events</span>
+          </nav>
           <span class="media-events-kicker">Events &amp; Media</span>
           <h1>Industry Presence, Recognition, and Brand Visibility Across Key Platforms.</h1>
           <p>Adapted from the old Novoflex Media &amp; Events page, this section brings together press mentions, exhibitions, awards, and public-facing milestones that reflect the company's market presence and continued engagement with industry audiences.</p>

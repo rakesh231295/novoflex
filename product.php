@@ -35,9 +35,9 @@ $productHighlights = [
         <div class="product-range-hero-copy">
           <nav class="product-range-breadcrumb" aria-label="Breadcrumb">
             <a href="index.php">Home</a>
-            <span>/</span>
+            <span>&gt;</span>
             <span aria-current="page">Products</span>
-            <span>/</span>
+            <span>&gt;</span>
             <span>Industrial Cable Management</span>
           </nav>
           <h1>Industrial Cable Management and Engineered Plastic Solutions, Built to Perform.</h1>
