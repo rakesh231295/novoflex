@@ -9,44 +9,7 @@ include 'header.php';
     <div class="container">
       <div class="row align-items-center position-relative">
         <div class="col-lg-7 position-relative" style="z-index: 10;">
-          <div class="mb-3">
-            <span class="text-uppercase" style="color: #0056b3; font-weight: 800; font-size: 13px; letter-spacing: 0.1em;">FAQS</span>
-          </div>
-          <h1 style="color: #071e43; font-size: 46px; font-weight: 800; margin-bottom: 20px; line-height: 1.1;">
-            Find answers to <br/><span style="color: #0056b3;">common questions.</span>
-          </h1>
-          <p style="color: #52637a; font-size: 16px; margin-bottom: 30px; max-width: 480px; line-height: 1.6;">
-            Everything you need to know about Novoflex products, solutions and services.
-          </p>
-          <div class="d-flex flex-wrap gap-4 mb-4">
-            <div class="d-flex align-items-center gap-2">
-              <i class="bi bi-chat-dots" style="font-size: 20px; color: #52637a;"></i>
-              <span style="font-size: 14px; font-weight: 600; color: #071e43;">Expert Answers</span>
-            </div>
-            <div class="d-flex align-items-center gap-2">
-              <i class="bi bi-shield-check" style="font-size: 20px; color: #52637a;"></i>
-              <span style="font-size: 14px; font-weight: 600; color: #071e43;">Reliable Solutions</span>
-            </div>
-            <div class="d-flex align-items-center gap-2">
-              <i class="bi bi-clock-history" style="font-size: 20px; color: #52637a;"></i>
-              <span style="font-size: 14px; font-weight: 600; color: #071e43;">Quick Support</span>
-            </div>
-          </div>
-          <div style="background: #071e43; border-radius: 12px; padding: 20px 24px; display: inline-flex; align-items: center; justify-content: space-between; width: 100%; max-width: 480px; box-shadow: 0 10px 30px rgba(7,30,67,0.15); position: relative; z-index: 2;">
-            <div class="d-flex align-items-center gap-3">
-              <div style="width: 44px; height: 44px; border-radius: 50%; border: 1px solid rgba(255,255,255,0.2); display: flex; align-items: center; justify-content: center; color: #0056b3; font-size: 20px;">
-                <i class="bi bi-headset"></i>
-              </div>
-              <div>
-                <div style="color: #fff; font-weight: 700; font-size: 14px; margin-bottom: 2px;">Still have questions?</div>
-                <div style="color: rgba(255,255,255,0.7); font-size: 12px;">Our experts are here to help you find the right solution.</div>
-              </div>
-            </div>
-            <a href="contact.php" class="btn btn-brand btn-sm" style="background: #0056b3; border: none; padding: 8px 16px;">Contact Our Experts <i class="bi bi-arrow-right"></i></a>
-          </div>
-        </div>
-        <div class="col-lg-6 d-none d-lg-block position-absolute" style="right: 0; top: 50%; transform: translateY(-50%); height: 100%; z-index: 1;">
-          <img src="images/faq-banner.png" alt="Novoflex FAQs" style="width: 100%; height: 100%; object-fit: cover; object-position: center right; -webkit-mask-image: linear-gradient(to right, transparent 0%, transparent 15%, black 60%); mask-image: linear-gradient(to right, transparent 0%, transparent 15%, black 60%); border-radius: 0 16px 16px 0;" />
+          <img src="images/faq-banner.png" alt="Novoflex FAQs" style="width: 100%; height: auto; object-fit: contain; border-radius: 16px; box-shadow: 0 15px 35px rgba(0,0,0,0.05);" />
         </div>
       </div>
     </div>
