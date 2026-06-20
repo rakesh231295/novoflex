@@ -89,7 +89,7 @@ include 'header.php';
     <div class="container">
       <div class="latest-blog-head">
         <div>
-          <span class="section-kicker">Latest Articles</span>
+          <span class="section-kicker">Other Articles</span>
           <h2>Explore the Knowledge Center</h2>
         </div>
         <span id="blog-result-count" class="blog-count">Showing all articles</span>

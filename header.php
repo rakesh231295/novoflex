@@ -71,7 +71,7 @@ $metaImage = $baseUrl . 'images/logo.png';
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
-  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/style.css?v=<?php echo time(); ?>" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -168,19 +168,41 @@ $metaImage = $baseUrl . 'images/logo.png';
       <div class="collapse navbar-collapse" id="mainNav">
         <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
           <li class="nav-item"><a class="nav-link<?php echo $currentPage === 'index.php' ? ' active' : ''; ?>" href="index.php">Home</a></li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle<?php echo $currentPage === 'company.php' ? ' active' : ''; ?>" href="company.php" id="companyNav" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Company
-            </a>
-            <ul class="dropdown-menu company-dropdown" aria-labelledby="companyNav">
-              <li><a class="dropdown-item" href="company.php#about-us">About Us</a></li>
-              <li><a class="dropdown-item" href="company.php#commitment-quality">Commitment to Quality</a></li>
-              <li><a class="dropdown-item" href="company.php#how-we-work">How We Work</a></li>
-              <li><a class="dropdown-item" href="company.php#code-of-ethics">Code of Ethics</a></li>
-              <li><a class="dropdown-item" href="company.php#privacy-policy">Privacy Policy</a></li>
+          <li class="nav-item dropdown nav-split-item">
+            <a class="nav-link<?php echo $currentPage === 'company.php' ? ' active' : ''; ?>" href="company.php">Company</a>
+            <button class="nav-split-toggle" type="button" data-bs-toggle="dropdown" data-bs-reference="parent" aria-expanded="false" aria-label="Company menu" id="companyNav">
+              <i class="bi bi-chevron-down"></i>
+            </button>
+            <ul class="dropdown-menu products-dropdown" aria-labelledby="companyNav">
+              <li><a class="dropdown-item" href="company.php#leadership-message"><i class="bi bi-person-badge"></i> Leadership Message</a></li>
+              <li><a class="dropdown-item" href="company.php#vision-mission-values"><i class="bi bi-eye"></i> Vision, Mission &amp; Values</a></li>
+              <li><a class="dropdown-item" href="company.php#usp"><i class="bi bi-award"></i> Why Choose Novoflex</a></li>
+              <li><a class="dropdown-item" href="company.php#journey"><i class="bi bi-clock-history"></i> Our Journey</a></li>
+              <li><a class="dropdown-item" href="company.php#product-line"><i class="bi bi-box-seam"></i> Product Line</a></li>
+              <li><a class="dropdown-item" href="company.php#manufacturing-excellence"><i class="bi bi-gear-wide-connected"></i> Manufacturing Excellence</a></li>
+              <li><a class="dropdown-item" href="company.php#how-we-work"><i class="bi bi-diagram-3"></i> How We Work</a></li>
+              <li><a class="dropdown-item" href="company.php#commitment-quality"><i class="bi bi-shield-check"></i> Commitment to Quality</a></li>
+              <li><a class="dropdown-item" href="company.php#code-of-ethics"><i class="bi bi-journal-check"></i> Code of Ethics</a></li>
+              <li><a class="dropdown-item" href="company.php#privacy-policy"><i class="bi bi-lock"></i> Privacy Policy</a></li>
             </ul>
           </li>
-          <li class="nav-item"><a class="nav-link<?php echo $currentPage === 'product.php' ? ' active' : ''; ?>" href="product.php">Products</a></li>
+          <li class="nav-item dropdown nav-split-item">
+            <a class="nav-link<?php echo in_array($currentPage, ['product.php', 'products.php', 'category.php', 'sub-categories.php']) ? ' active' : ''; ?>" href="product.php">Products</a>
+            <button class="nav-split-toggle" type="button" data-bs-toggle="dropdown" data-bs-reference="parent" aria-expanded="false" aria-label="Products menu" id="productsNav">
+              <i class="bi bi-chevron-down"></i>
+            </button>
+            <ul class="dropdown-menu products-dropdown" aria-labelledby="productsNav">
+              <li><a class="dropdown-item" href="category.php?product=cable-ties-fastening-systems"><i class="bi bi-link-45deg"></i> Cable Ties &amp; Fastening Systems</a></li>
+              <li><a class="dropdown-item" href="category.php?product=cable-routing-mounting-solutions"><i class="bi bi-diagram-3"></i> Cable Routing &amp; Mounting Solutions</a></li>
+              <li><a class="dropdown-item" href="category.php?product=cable-protection-systems"><i class="bi bi-shield-check"></i> Cable Protection Systems</a></li>
+              <li><a class="dropdown-item" href="category.php?product=cable-entry-sealing-solutions"><i class="bi bi-funnel"></i> Cable Entry &amp; Sealing Solutions</a></li>
+              <li><a class="dropdown-item" href="category.php?product=pcb-support-systems"><i class="bi bi-cpu"></i> PCB Support Systems</a></li>
+              <li><a class="dropdown-item" href="category.php?product=plastic-fasteners-riveting-systems"><i class="bi bi-tools"></i> Plastic Fasteners &amp; Riveting Systems</a></li>
+              <li><a class="dropdown-item" href="category.php?product=security-identification-systems"><i class="bi bi-patch-check"></i> Security &amp; Identification Systems</a></li>
+              <li><a class="dropdown-item" href="sub-categories.php?product=cord-management&amp;category=cord-organix"><i class="bi bi-outlet"></i> Cord Management</a></li>
+              <li><a class="dropdown-item" href="sub-categories.php?product=connector-accessories&amp;category=connector-accessories"><i class="bi bi-plug"></i> Connector Accessories</a></li>
+            </ul>
+          </li>
           <li class="nav-item"><a class="nav-link<?php echo $currentPage === 'media.php' ? ' active' : ''; ?>" href="media.php">Media &amp; Events</a></li>
           <li class="nav-item"><a class="nav-link<?php echo $currentPage === 'career.php' ? ' active' : ''; ?>" href="career.php">Careers</a></li>
           <li class="nav-item"><a class="nav-link<?php echo $currentPage === 'faqs.php' ? ' active' : ''; ?>" href="faqs.php">FAQs</a></li>

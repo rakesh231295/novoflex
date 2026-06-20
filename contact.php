@@ -49,7 +49,7 @@ include 'header.php';
       <div class="row g-4 align-items-stretch">
         <div class="col-lg-6">
           <div class="support-card h-100">
-            <img src="images/contact-2.jpg" alt="Novoflex office team supporting customer enquiries" />
+            <img src="images/contact-sec.jpeg" alt="Novoflex office team supporting customer enquiries" />
             <div class="support-card-body">
               <h2>Reliable Support Starts Here</h2>
               <p>

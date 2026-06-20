@@ -554,7 +554,7 @@ include 'header.php';
         </div>
 
         <div class="mfg-excellence-media">
-          <img src="images/career-2.jpg" alt="Novoflex Manufacturing Facility" />
+          <img src="images/excellence.jpeg" alt="Novoflex Manufacturing Facility" />
           <div class="mfg-strength-card">
             <div class="mfg-strength-icon-wrap"><i class="bi bi-shield-fill-check"></i></div>
             <h3>Our Strength</h3>

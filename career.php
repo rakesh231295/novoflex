@@ -94,26 +94,30 @@ include 'header.php';
       <div class="positions-grid">
         <article class="position-card">
           <span class="position-kicker">Open Position</span>
-          <h3>Marketing Executive</h3>
+          <h3>Sales Manager</h3>
           <ul>
-            <li>Support customer outreach, enquiry generation, and market development initiatives.</li>
-            <li>Coordinate with internal teams to communicate product strengths and business capabilities.</li>
-            <li>Represent the company professionally in client interactions and follow-up activities.</li>
-            <li>Suitable for candidates who can combine initiative, communication, and business discipline.</li>
+            <li>B2B Selling to OEMs and Customer Handling.</li>
+            <li>CRM System Proficiency and Lead Generation.</li>
+            <li>Client Conversion and Analytical Skills.</li>
           </ul>
-          <a class="career-btn" href="#submit-application">Apply / Enquire</a>
+          <div class="position-actions d-flex gap-2">
+            <button type="button" class="btn btn-outline-brand" data-bs-toggle="modal" data-bs-target="#salesManagerModal">Read More</button>
+            <a class="career-btn" href="#submit-application" onclick="document.getElementById('career-role').value='Sales Manager'">Apply Now</a>
+          </div>
         </article>
 
         <article class="position-card">
           <span class="position-kicker">Open Position</span>
-          <h3>Graphic Designer / Editor</h3>
+          <h3>Accounts Manager</h3>
           <ul>
-            <li>Create visual assets and communication material aligned with product and brand messaging.</li>
-            <li>Support catalogues, marketing creatives, and digital presentation requirements.</li>
-            <li>Work with content and business teams to sharpen brand visibility and clarity.</li>
-            <li>Ideal for candidates who combine design skill with professional execution standards.</li>
+            <li>Strong knowledge in ROC and Expertise in Tally prime.</li>
+            <li>GST/ TAX management, Income Tax returns & statutory compliance.</li>
+            <li>Account finalization and handling books of accounts.</li>
           </ul>
-          <a class="career-btn" href="#submit-application">Apply / Enquire</a>
+          <div class="position-actions d-flex gap-2">
+            <button type="button" class="btn btn-outline-brand" data-bs-toggle="modal" data-bs-target="#accountsManagerModal">Read More</button>
+            <a class="career-btn" href="#submit-application" onclick="document.getElementById('career-role').value='Accounts Manager'">Apply Now</a>
+          </div>
         </article>
       </div>
 
@@ -155,9 +159,9 @@ include 'header.php';
               <label class="form-label" for="career-role">Applying For</label>
               <select id="career-role" class="form-select">
                 <option selected disabled>Select role</option>
-                <option>Marketing Executive</option>
-                <option>Graphic Designer / Editor</option>
-                <option>General Application</option>
+                <option value="Sales Manager">Sales Manager</option>
+                <option value="Accounts Manager">Accounts Manager</option>
+                <option value="General Application">General Application</option>
               </select>
             </div>
             <div class="col-12 resume-upload">
@@ -179,6 +183,113 @@ include 'header.php';
       </div>
     </div>
   </section>
+
+  <!-- Modals -->
+  <div class="modal fade" id="salesManagerModal" tabindex="-1" aria-labelledby="salesManagerModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="salesManagerModalLabel">Sales Manager - Role &amp; Responsibilities</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body career-modal-body">
+          <h6>Key Responsibilities</h6>
+          <p><strong>B2B Selling to OEMs:</strong></p>
+          <ul>
+            <li>Develop and maintain strong relationships with OEM clients.</li>
+            <li>Identify and target potential OEM customers to generate new business opportunities.</li>
+            <li>Present and demonstrate products or services to OEM clients, addressing their specific needs and requirements.</li>
+          </ul>
+          
+          <p><strong>Customer Handling:</strong></p>
+          <ul>
+            <li>Manage and nurture existing customer relationships to ensure satisfaction and repeat business.</li>
+            <li>Handle customer inquiries and resolve any issues promptly and effectively.</li>
+            <li>Provide exceptional customer service, ensuring a positive experience for all clients.</li>
+          </ul>
+
+          <p><strong>CRM System Proficiency:</strong></p>
+          <ul>
+            <li>Utilize CRM systems to manage customer information, track sales activities, and analyze sales data.</li>
+            <li>Maintain accurate and up-to-date records of all customer interactions and transactions.</li>
+            <li>Generate reports and insights from the CRM system to support sales strategies and decision-making.</li>
+          </ul>
+
+          <p><strong>Email Correspondence and Internet Savvy:</strong></p>
+          <ul>
+            <li>Conduct professional and effective email correspondence with clients.</li>
+            <li>Use the internet and digital tools to research and identify potential customers, market trends, and competitor activities.</li>
+            <li>Leverage online platforms for lead generation and sales promotion.</li>
+          </ul>
+
+          <p><strong>Client Conversion and Analytical Skills:</strong></p>
+          <ul>
+            <li>Develop and implement strategies to convert leads into clients.</li>
+            <li>Analyze sales data and customer feedback to refine sales approaches and improve conversion rates.</li>
+            <li>Utilize analytical skills to identify market opportunities and optimize sales performance.</li>
+            <li>Lead Generation.</li>
+          </ul>
+
+          <h6>Required Skills and Qualifications</h6>
+          <ul>
+            <li>Proven experience in B2B sales, preferably with OEM clients.</li>
+            <li>Excellent customer handling and relationship management skills.</li>
+            <li>Pleasant personality with strong interpersonal skills.</li>
+            <li>Fluency in English, both written and verbal.</li>
+            <li>Proficiency in operating CRM systems.</li>
+            <li>Strong email correspondence skills.</li>
+            <li>Internet savvy with the ability to use online tools for sales activities.</li>
+            <li>Demonstrated ability to convert leads into clients.</li>
+            <li>Analytical mind with the ability to analyze sales data and develop strategic approaches.</li>
+            <li>Bachelors degree in Business, Marketing, or a related field is preferred.</li>
+          </ul>
+
+          <h6>Preferred Attributes</h6>
+          <ul>
+            <li>Experience in a similar role within a fast-paced environment.</li>
+            <li>Additional certifications in sales or marketing.</li>
+            <li>Strong problem-solving skills and the ability to work independently as well as part of a team.</li>
+            <li>Excellent organizational and time-management skills.</li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="accountsManagerModal" tabindex="-1" aria-labelledby="accountsManagerModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="accountsManagerModalLabel">Accounts Manager - Job Description</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body career-modal-body">
+          <p><strong>Academic Qualification required:</strong><br>CA (Inter)/ B.COM GRADUATE (Mandatory)</p>
+
+          <h6>Job Description &amp; Required Skill:</h6>
+          <ul>
+            <li><strong>Strong knowledge in ROC</strong></li>
+            <li><strong>Expertise in Tally prime</strong></li>
+            <li>Account finalization</li>
+            <li>Handling the company's book of accounts, payment and collection book</li>
+            <li><strong>GST/ TAX management, submission/ Others statutory</strong></li>
+            <li>Strong knowledge in Income Tax returns</li>
+            <li>Should be smart, good in approach and group coordination.</li>
+            <li>Should be Presentable.</li>
+            <li>Should have good Communication and writing skills in ENGLISH.</li>
+            <li>Should have very good knowledge in Computer basic excel, word, power point.</li>
+            <li>Should be smart and quick learner.</li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
 </main>
 
 <?php include 'footer.php'; ?>
