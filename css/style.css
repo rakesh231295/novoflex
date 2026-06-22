@@ -2586,12 +2586,13 @@ body {
   position: relative;
   overflow: hidden;
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 245px;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 40px;
   min-height: 360px;
   padding: clamp(26px, 4vw, 48px);
   border-radius: 0;
   background:
-    linear-gradient(90deg, rgba(2, 22, 61, .98) 0%, rgba(2, 22, 61, .9) 46%, rgba(2, 22, 61, .24) 78%),
+    linear-gradient(90deg, rgba(2, 22, 61, .98) 0%, rgba(2, 22, 61, .95) 65%, rgba(2, 22, 61, .85) 100%),
     url("../images/media-banner.jpeg") center/cover no-repeat;
   color: #fff;
   box-shadow: 0 18px 42px rgba(2, 22, 61, .12);
@@ -2681,6 +2682,7 @@ body {
 
 .media-events-nav {
   align-self: center;
+  justify-self: end;
   display: grid;
   gap: 16px;
 }
@@ -4391,6 +4393,7 @@ body.media-lightbox-open {
   inset: 0;
   opacity: 0;
   transition: opacity .8s ease;
+  object-fit: cover !important;
 }
 
 .product-slide.is-active {
@@ -5021,6 +5024,7 @@ body.media-lightbox-open {
   font-size: 17px;
   line-height: 1.35;
   letter-spacing: -.02em;
+  color: #071e43;
 }
 
 .industry-text {
@@ -10159,7 +10163,7 @@ body.media-lightbox-open {
 
 .career-benefits {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: 18px;
 }
 

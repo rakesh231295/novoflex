@@ -192,15 +192,15 @@ $metaImage = $baseUrl . 'images/logo.png';
               <i class="bi bi-chevron-down"></i>
             </button>
             <ul class="dropdown-menu products-dropdown" aria-labelledby="productsNav">
-              <li><a class="dropdown-item" href="category.php?product=cable-ties-fastening-systems"><i class="bi bi-link-45deg"></i> Cable Ties &amp; Fastening Systems</a></li>
-              <li><a class="dropdown-item" href="category.php?product=cable-routing-mounting-solutions"><i class="bi bi-diagram-3"></i> Cable Routing &amp; Mounting Solutions</a></li>
-              <li><a class="dropdown-item" href="category.php?product=cable-protection-systems"><i class="bi bi-shield-check"></i> Cable Protection Systems</a></li>
-              <li><a class="dropdown-item" href="category.php?product=cable-entry-sealing-solutions"><i class="bi bi-funnel"></i> Cable Entry &amp; Sealing Solutions</a></li>
-              <li><a class="dropdown-item" href="category.php?product=pcb-support-systems"><i class="bi bi-cpu"></i> PCB Support Systems</a></li>
-              <li><a class="dropdown-item" href="category.php?product=plastic-fasteners-riveting-systems"><i class="bi bi-tools"></i> Plastic Fasteners &amp; Riveting Systems</a></li>
-              <li><a class="dropdown-item" href="category.php?product=security-identification-systems"><i class="bi bi-patch-check"></i> Security &amp; Identification Systems</a></li>
-              <li><a class="dropdown-item" href="sub-categories.php?product=cord-management&amp;category=cord-organix"><i class="bi bi-outlet"></i> Cord Management</a></li>
-              <li><a class="dropdown-item" href="sub-categories.php?product=connector-accessories&amp;category=connector-accessories"><i class="bi bi-plug"></i> Connector Accessories</a></li>
+              <li><a class="dropdown-item" href="category.php?product=cable-ties-fastening-systems">Cable Ties &amp; Fastening Systems</a></li>
+              <li><a class="dropdown-item" href="category.php?product=cable-routing-mounting-solutions">Cable Routing &amp; Mounting Solutions</a></li>
+              <li><a class="dropdown-item" href="category.php?product=cable-protection-systems">Cable Protection Systems</a></li>
+              <li><a class="dropdown-item" href="category.php?product=cable-entry-sealing-solutions">Cable Entry &amp; Sealing Solutions</a></li>
+              <li><a class="dropdown-item" href="category.php?product=pcb-support-systems">PCB Support Systems</a></li>
+              <li><a class="dropdown-item" href="category.php?product=plastic-fasteners-riveting-systems">Plastic Fasteners &amp; Riveting Systems</a></li>
+              <li><a class="dropdown-item" href="category.php?product=security-identification-systems">Security &amp; Identification Systems</a></li>
+              <li><a class="dropdown-item" href="sub-categories.php?product=cord-management&amp;category=cord-organix">Cord Management</a></li>
+              <li><a class="dropdown-item" href="sub-categories.php?product=connector-accessories&amp;category=connector-accessories">Connector Accessories</a></li>
             </ul>
           </li>
           <li class="nav-item"><a class="nav-link<?php echo $currentPage === 'media.php' ? ' active' : ''; ?>" href="media.php">Media &amp; Events</a></li>

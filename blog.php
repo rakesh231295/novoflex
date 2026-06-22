@@ -15,6 +15,9 @@ include 'header.php';
           </nav>
           <span class="blog-kicker">Novoflex Blog</span>
           <h1>The Novoflex Knowledge Center</h1>
+          <div style="margin-top: 12px; margin-bottom: 20px;">
+             <span style="background: rgba(255, 255, 255, 0.15); border: 1px solid rgba(255, 255, 255, 0.3); color: #ffffff; padding: 6px 14px; border-radius: 20px; font-size: 13px; font-weight: 700; letter-spacing: 0.5px;">Idea &bull; Insight &bull; Innovation</span>
+          </div>
           <p>
             Explore expert insights, technical guidance, industry trends, and product innovations designed to help engineers, manufacturers, and businesses build safer, more efficient systems.
           </p>

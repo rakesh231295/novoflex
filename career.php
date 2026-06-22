@@ -68,6 +68,13 @@ include 'header.php';
         </div>
         <div class="benefit-card">
           <span class="career-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+          </span>
+          <strong>Work Culture</strong>
+          <span>A work culture shaped by commitment, accountability, and practical execution.</span>
+        </div>
+        <div class="benefit-card">
+          <span class="career-icon" aria-hidden="true">
             <svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="5"/><path d="M8.5 12.5 7 22l5-3 5 3-1.5-9.5"/></svg>
           </span>
           <strong>Performance Recognition</strong>

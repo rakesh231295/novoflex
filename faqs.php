@@ -46,7 +46,7 @@ include 'header.php';
           </div>
         </div>
         <div class="col-lg-6 d-none d-lg-block position-absolute" style="right: 0; top: 50%; transform: translateY(-50%); height: 100%; z-index: 1;">
-          <img src="images/faq-banner.png" alt="Novoflex FAQs" style="width: 100%; height: 100%; object-fit: cover; object-position: center right; -webkit-mask-image: linear-gradient(to right, transparent 0%, transparent 15%, black 60%); mask-image: linear-gradient(to right, transparent 0%, transparent 15%, black 60%); border-radius: 0 16px 16px 0;" />
+          <img src="images/faq-banner.png" alt="Novoflex FAQs" style="width: 100%; height: 100%; object-fit: cover; object-position: center right; border-radius: 0 16px 16px 0;" />
         </div>
       </div>
     </div>
@@ -2385,7 +2385,7 @@ include 'header.php';
                 </div>
                 <i class="bi bi-arrow-right arrow"></i>
               </a>
-              <a href="#" class="faq-quick-link">
+              <a href="images/Installation_Guide.pdf" target="_blank" class="faq-quick-link">
                 <i class="bi bi-file-earmark-text icon"></i>
                 <div class="faq-quick-link-content">
                   <div class="faq-quick-link-title">Installation Guides</div>

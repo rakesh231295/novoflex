@@ -516,7 +516,7 @@ include 'header.php';
 
         <div class="mfg-excellence-copy">
           <div class="section-kicker">Manufacturing Excellence</div>
-          <h2 class="mfg-excellence-heading">Engineered Precision.<br><span>Consistent Performance.</span></h2>
+          <h2 class="mfg-excellence-heading">Engineered Precision.<br>Consistent Performance.</h2>
           <p class="mfg-excellence-desc">At Novoflex, advanced manufacturing, stringent quality processes and continuous innovation come together to deliver reliable cable management and engineered plastic solutions you can count on.</p>
 
           <div class="mfg-excellence-features">

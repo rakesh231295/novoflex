@@ -3,7 +3,7 @@ $pageTitle = 'Industries Served';
 include 'header.php';
 ?>
 
-<main class="industries-page mt-5" style="padding-top: 120px; padding-bottom: 80px; background-color: #f8fafc;">
+<main class="industries-page" style="padding-top: 180px; padding-bottom: 80px; background-color: #f8fafc;">
   <div class="container">
     <div class="text-center mb-5">
       <div class="section-kicker" style="color: #d72632; font-size: 13px; font-weight: 900; letter-spacing: .08em; text-transform: uppercase; margin-bottom: 12px;">All Industries</div>
@@ -23,6 +23,7 @@ include 'header.php';
           <span class="industry-body">
             <span class="industry-title">Manufacturing &amp; Industrial Equipment</span>
             <span class="industry-text">Purpose-built cable management for heavy-duty machinery and production environments.</span>
+            <span class="industry-products" style="display: block; margin-top: 10px; font-size: 13px; color: #52637a; line-height: 1.5;"><strong>Products:</strong> Nylon Cable Ties, Cable Glands, Cable Clamps, Stainless Steel Cable Ties.</span>
           </span>
         </a>
       </div>
@@ -30,10 +31,12 @@ include 'header.php';
         <a class="industry-card" href="contact.php">
           <span class="industry-media industry-slider" data-industry-slider data-interval="2900">
             <img class="industry-slide is-active" src="images/industry/Automotive&EVComponents/1.jpg" alt="Automotive and EV Components" />
+            <img class="industry-slide" src="images/industry/2nd-image/automobile.png" alt="Automotive and EV Components" />
           </span>
           <span class="industry-body">
             <span class="industry-title">Automotive &amp; EV Components</span>
             <span class="industry-text">Reliable routing and bundling for vehicle harnesses and mobility systems.</span>
+            <span class="industry-products" style="display: block; margin-top: 10px; font-size: 13px; color: #52637a; line-height: 1.5;"><strong>Products:</strong> Fir Tree Mount Clips, Panel Edge Clips, Nylon Cable Ties, Twist Clips, Tie Mounts, Cable Binders, Stainless Steel Cable Ties, Wire Holders, Grommet Rings, P-Clips, Cable Clamps, Auto Wire Harness.</span>
           </span>
         </a>
       </div>
@@ -44,8 +47,9 @@ include 'header.php';
             <img class="industry-slide" src="images/industry/2nd-image/Electrical-Panels-&-Control-Systems/1.png" alt="Electrical Panels and Control Systems" />
           </span>
           <span class="industry-body">
-            <span class="industry-title">Electrical Panels &amp; Control Systems</span>
+            <span class="industry-title">Control Panels</span>
             <span class="industry-text">Precision accessories for organized cabinet layouts and safe internal wiring.</span>
+            <span class="industry-products" style="display: block; margin-top: 10px; font-size: 13px; color: #52637a; line-height: 1.5;"><strong>Products:</strong> Nylon Cable Ties, Cable Clamps, Tie Mounts, Cable Markers, Mounting Buttons. Adjustable Cable Clamps.</span>
           </span>
         </a>
       </div>
@@ -58,6 +62,7 @@ include 'header.php';
           <span class="industry-body">
             <span class="industry-title">Power Plants &amp; Energy Sector</span>
             <span class="industry-text">Components engineered for durable performance across power distribution systems.</span>
+            <span class="industry-products" style="display: block; margin-top: 10px; font-size: 13px; color: #52637a; line-height: 1.5;"><strong>Products:</strong> Nylon Cable Ties, Stainless Steel Ties, Nylon Cable Glands, Cable Clamps.</span>
           </span>
         </a>
       </div>
@@ -68,8 +73,9 @@ include 'header.php';
             <img class="industry-slide" src="images/industry/2nd-image/Solar-&-Renewable-energy/1.png" alt="Solar and Renewable Energy" />
           </span>
           <span class="industry-body">
-            <span class="industry-title">Solar &amp; Renewable Energy</span>
+            <span class="industry-title">Solar Power</span>
             <span class="industry-text">UV-aware cable solutions for outdoor solar arrays and renewable installations.</span>
+            <span class="industry-products" style="display: block; margin-top: 10px; font-size: 13px; color: #52637a; line-height: 1.5;"><strong>Products:</strong> UV Resistant Cable Ties, Polyamide Cable Glands.</span>
           </span>
         </a>
       </div>
@@ -80,8 +86,9 @@ include 'header.php';
             <img class="industry-slide" src="images/industry/2nd-image/Railways-and-Infrastucture/1.png" alt="Railways and Infrastructure" />
           </span>
           <span class="industry-body">
-            <span class="industry-title">Railways &amp; Infrastructure</span>
+            <span class="industry-title">Railways</span>
             <span class="industry-text">Dependable accessories for long-life routing in transport and infrastructure projects.</span>
+            <span class="industry-products" style="display: block; margin-top: 10px; font-size: 13px; color: #52637a; line-height: 1.5;"><strong>Products:</strong> Nylon Cable Ties, Stainless Steel Cable Ties, Fir Tree Mount Clips, Panel Edge Clips.</span>
           </span>
         </a>
       </div>
@@ -92,8 +99,9 @@ include 'header.php';
             <img class="industry-slide" src="images/industry/2nd-image/Marine-&-Shipbuilding/1.png" alt="Marine and Shipbuilding" />
           </span>
           <span class="industry-body">
-            <span class="industry-title">Marine &amp; Shipbuilding</span>
+            <span class="industry-title">Ship Building</span>
             <span class="industry-text">Robust components suited for challenging marine and offshore wiring conditions.</span>
+            <span class="industry-products" style="display: block; margin-top: 10px; font-size: 13px; color: #52637a; line-height: 1.5;"><strong>Products:</strong> Stainless Steel Cable Ties, Nylon Cable Ties.</span>
           </span>
         </a>
       </div>
@@ -104,8 +112,9 @@ include 'header.php';
             <img class="industry-slide" src="images/industry/2nd-image/Telecommunication/1.png" alt="Telecommunications" />
           </span>
           <span class="industry-body">
-            <span class="industry-title">Telecommunications</span>
+            <span class="industry-title">Telecom</span>
             <span class="industry-text">Efficient signal-cable support for telecom cabinets, junctions, and network nodes.</span>
+            <span class="industry-products" style="display: block; margin-top: 10px; font-size: 13px; color: #52637a; line-height: 1.5;"><strong>Products:</strong> Nylon Cable Ties, Nylon Cable Glands, Strain Relief Cord Bushings, Snap Rivets, Push Rivets, Mounting Buttons, Cable Clamps, Wire Holders, Tie Mounts, PCB Supports.</span>
           </span>
         </a>
       </div>
@@ -116,8 +125,9 @@ include 'header.php';
             <img class="industry-slide" src="images/industry/2nd-image/Pharmaceuticals-&-Chemicals/1.png" alt="Pharmaceuticals and Chemicals" />
           </span>
           <span class="industry-body">
-            <span class="industry-title">Pharmaceuticals &amp; Chemicals</span>
+            <span class="industry-title">Pharmaceuticals &amp; Drugs</span>
             <span class="industry-text">Stable fastening and cable management for controlled and process-driven facilities.</span>
+            <span class="industry-products" style="display: block; margin-top: 10px; font-size: 13px; color: #52637a; line-height: 1.5;"><strong>Products:</strong> Pilfer Proof Strip Seals, Bag Closures, Nylon Cable Ties, Identification Ties, Metal Detectable Cable Ties.</span>
           </span>
         </a>
       </div>
@@ -128,8 +138,9 @@ include 'header.php';
             <img class="industry-slide" src="images/industry/2nd-image/Electronic-&-applianes/1.png" alt="Consumer Electronics and Appliances" />
           </span>
           <span class="industry-body">
-            <span class="industry-title">Consumer Electronics &amp; Appliances</span>
+            <span class="industry-title">Consumer Durables</span>
             <span class="industry-text">Compact, clean routing components ideal for efficient product assembly lines.</span>
+            <span class="industry-products" style="display: block; margin-top: 10px; font-size: 13px; color: #52637a; line-height: 1.5;"><strong>Products:</strong> Nylon Cable Ties, Strain Relief Cord Bushings, P-Clips, Grommet Rings, Twist Clips, Wire Holders, Cable Tie Mounts, Snap Rivets, Push Rivets, Cable Clamps, PCB Supports.</span>
           </span>
         </a>
       </div>
@@ -140,8 +151,9 @@ include 'header.php';
             <img class="industry-slide" src="images/industry/2nd-image/Logistic-&-Asset-Management/1.png" alt="Logistics and Asset Management" />
           </span>
           <span class="industry-body">
-            <span class="industry-title">Logistics &amp; Asset Management</span>
+            <span class="industry-title">Couriers &amp; Logistics</span>
             <span class="industry-text">Reliable identification and secure retention solutions for movement and asset control.</span>
+            <span class="industry-products" style="display: block; margin-top: 10px; font-size: 13px; color: #52637a; line-height: 1.5;"><strong>Products:</strong> Pilfer Proof Strip Seals, Bag Closures, Nylon Cable Ties, Identification Ties.</span>
           </span>
         </a>
       </div>

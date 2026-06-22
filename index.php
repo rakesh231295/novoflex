@@ -343,6 +343,7 @@ Components for Industrial Applications
         <a class="industry-card industry-card-featured" href="#contact">
           <span class="industry-media industry-slider" data-industry-slider data-interval="2900">
             <img class="industry-slide is-active" src="images/industry/Automotive&EVComponents/1.jpg" alt="Automotive and EV Components" />
+            <img class="industry-slide" src="images/industry/2nd-image/automobile.png" alt="Automotive and EV Components" />
           </span>
           <span class="industry-body">
             <span class="industry-title">Automotive &amp; EV Components</span>
