@@ -15,7 +15,7 @@ include 'header.php';
           </nav>
           <span class="media-events-kicker">Events &amp; Media</span>
           <h1>Industry Presence, Recognition, and Brand Visibility Across Key Platforms.</h1>
-          <p>Adapted from the old Novoflex Media &amp; Events page, this section brings together press mentions, exhibitions, awards, and public-facing milestones that reflect the company's market presence and continued engagement with industry audiences.</p>
+          <p>Explore our journey through exhibitions, industry collaborations, media features and milestone moments that drive us forward.</p>
           <div class="media-events-actions">
             <a href="#upcoming-events" class="media-events-btn media-events-btn-primary">Upcoming Events <i class="bi bi-arrow-right"></i></a>
             <a href="#photo-gallery" class="media-events-btn media-events-btn-outline">Explore Gallery <i class="bi bi-images"></i></a>

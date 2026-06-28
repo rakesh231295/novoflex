@@ -2592,7 +2592,7 @@ body {
   padding: clamp(26px, 4vw, 48px);
   border-radius: 0;
   background:
-    linear-gradient(90deg, rgba(2, 22, 61, .98) 0%, rgba(2, 22, 61, .95) 65%, rgba(2, 22, 61, .85) 100%),
+    linear-gradient(90deg, rgba(2, 22, 61, .7) 0%, rgba(2, 22, 61, .8) 65%, rgba(2, 22, 61, .85) 100%),
     url("../images/media-banner.jpeg") center/cover no-repeat;
   color: #fff;
   box-shadow: 0 18px 42px rgba(2, 22, 61, .12);
@@ -4393,7 +4393,8 @@ body.media-lightbox-open {
   inset: 0;
   opacity: 0;
   transition: opacity .8s ease;
-  object-fit: cover !important;
+  object-fit: contain !important;
+  background: #fff;
 }
 
 .product-slide.is-active {
@@ -5206,6 +5207,7 @@ body.media-lightbox-open {
   border-radius: 16px;
   padding: 18px 18px;
   min-height: 120px;
+  height: 100%;
   border: 1px solid rgba(12, 23, 41, .06);
 }
 
@@ -9009,14 +9011,18 @@ body.media-lightbox-open {
   z-index: 1;
 }
 
-.company-page-refresh .company-privacy-copy p {
+.company-page-refresh .company-privacy-copy p,
+.company-page-refresh .company-privacy-copy ul,
+.company-page-refresh .company-privacy-copy ol {
   margin: 0;
   color: rgba(12, 23, 41, .7);
   font-size: 14px;
   line-height: 1.85;
 }
 
-.company-page-refresh .company-privacy-copy p+p {
+.company-page-refresh .company-privacy-copy p+p,
+.company-page-refresh .company-privacy-copy p+ul,
+.company-page-refresh .company-privacy-copy p+ol {
   margin-top: 12px;
 }
 
@@ -9799,9 +9805,9 @@ body.media-lightbox-open {
 
 .support-card-body p {
   margin: 0;
-  color: #17243a;
-  font-size: 18px;
-  line-height: 1.55;
+  color: rgba(12, 23, 41, .7);
+  font-size: 14px;
+  line-height: 1.6;
 }
 
 .contact-form-card {
@@ -10569,7 +10575,7 @@ body.media-lightbox-open {
   }
 
   .support-card-body p {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .contact-help-copy {
@@ -11776,13 +11782,16 @@ body.media-lightbox-open {
   padding-bottom: 10px;
   border-bottom: 1px solid rgba(12, 23, 41, .08);
 }
+
 .faq-nav-pills::-webkit-scrollbar {
   height: 4px;
 }
+
 .faq-nav-pills::-webkit-scrollbar-thumb {
   background-color: rgba(12, 23, 41, .15);
   border-radius: 4px;
 }
+
 .faq-nav-pills .nav-link {
   display: flex;
   flex-direction: column;
@@ -11798,19 +11807,23 @@ body.media-lightbox-open {
   font-weight: 600;
   transition: all 0.2s ease;
 }
+
 .faq-nav-pills .nav-link i {
   font-size: 24px;
   margin-bottom: 8px;
   color: #071e43;
 }
+
 .faq-nav-pills .nav-link.active {
   background: #f2f7fb;
   border-color: #0056b3;
   color: #0056b3;
 }
+
 .faq-nav-pills .nav-link.active i {
   color: #0056b3;
 }
+
 .faq-nav-pills .nav-link:hover:not(.active) {
   border-color: rgba(12, 23, 41, .2);
   color: #071e43;
@@ -11821,14 +11834,17 @@ body.media-lightbox-open {
   padding: 30px;
   margin-bottom: 24px;
 }
+
 .faq-sidebar-dark {
   background: #071e43;
   color: #fff;
 }
+
 .faq-sidebar-light {
   background: #f8fafc;
   border: 1px solid rgba(12, 23, 41, .08);
 }
+
 .faq-sidebar-dark .btn {
   background: #fff;
   color: #0056b3;
@@ -11836,6 +11852,7 @@ body.media-lightbox-open {
   border: none;
   width: 100%;
 }
+
 .faq-quick-link {
   display: flex;
   align-items: flex-start;
@@ -11844,34 +11861,41 @@ body.media-lightbox-open {
   padding: 12px 0;
   border-bottom: 1px solid rgba(12, 23, 41, .08);
 }
+
 .faq-quick-link:last-child {
   border-bottom: none;
 }
+
 .faq-quick-link i.icon {
   font-size: 20px;
   color: #0056b3;
   margin-right: 12px;
   margin-top: 2px;
 }
+
 .faq-quick-link-content {
   flex: 1;
 }
+
 .faq-quick-link-title {
   color: #071e43;
   font-weight: 700;
   font-size: 14px;
   margin-bottom: 2px;
 }
+
 .faq-quick-link-desc {
   font-size: 12px;
   color: #52637a;
 }
+
 .faq-quick-link i.arrow {
   margin-left: auto;
   color: #52637a;
   font-size: 16px;
   align-self: center;
 }
+
 .faq-quick-link:hover .faq-quick-link-title {
   color: #d72632;
 }
@@ -11883,6 +11907,7 @@ body.media-lightbox-open {
   background: transparent;
   margin-bottom: 0;
 }
+
 .faq-tab-pane .accordion-button {
   background: transparent !important;
   color: #071e43;
@@ -11891,15 +11916,18 @@ body.media-lightbox-open {
   box-shadow: none;
   font-size: 15px;
 }
+
 .faq-tab-pane .accordion-button:not(.collapsed) {
   color: #0056b3;
 }
+
 .faq-tab-pane .accordion-body {
   padding: 0 0 20px 0;
   color: #52637a;
   font-size: 14px;
   line-height: 1.6;
 }
+
 .faq-tab-pane .accordion-button::after {
   background-size: 14px;
 }
