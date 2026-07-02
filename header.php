@@ -56,6 +56,8 @@ $metaImage = $baseUrl . 'images/logo.png';
   <meta name="keywords" content="Novoflex, cable ties, cable glands, wire management, security seals, cable protection, engineered plastic components, industrial wiring accessories" />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="<?php echo htmlspecialchars($canonicalUrl); ?>" />
+  <link rel="icon" type="image/jpeg" href="images/feb-1.jpg" />
+  <link rel="apple-touch-icon" href="images/feb-1.jpg" />
 
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="NOVOFLEX" />
@@ -191,16 +193,16 @@ $metaImage = $baseUrl . 'images/logo.png';
             <button class="nav-split-toggle" type="button" data-bs-toggle="dropdown" data-bs-reference="parent" aria-expanded="false" aria-label="Products menu" id="productsNav">
               <i class="bi bi-chevron-down"></i>
             </button>
-            <ul class="dropdown-menu products-dropdown" aria-labelledby="productsNav">
-              <li><a class="dropdown-item" href="category.php?product=cable-ties-fastening-systems">Cable Ties &amp; Fastening Systems</a></li>
-              <li><a class="dropdown-item" href="category.php?product=cable-routing-mounting-solutions">Cable Routing &amp; Mounting Solutions</a></li>
-              <li><a class="dropdown-item" href="category.php?product=cable-protection-systems">Cable Protection Systems</a></li>
-              <li><a class="dropdown-item" href="category.php?product=cable-entry-sealing-solutions">Cable Entry &amp; Sealing Solutions</a></li>
-              <li><a class="dropdown-item" href="category.php?product=pcb-support-systems">PCB Support Systems</a></li>
-              <li><a class="dropdown-item" href="category.php?product=plastic-fasteners-riveting-systems">Plastic Fasteners &amp; Riveting Systems</a></li>
-              <li><a class="dropdown-item" href="category.php?product=security-identification-systems">Security &amp; Identification Systems</a></li>
-              <li><a class="dropdown-item" href="sub-categories.php?product=cord-management&amp;category=cord-organix">Cord Management</a></li>
-              <li><a class="dropdown-item" href="sub-categories.php?product=connector-accessories&amp;category=connector-accessories">Connector Accessories</a></li>
+            <ul class="dropdown-menu products-dropdown products-mega-dropdown" aria-labelledby="productsNav">
+              <li><a class="dropdown-item" href="category.php?product=cable-ties-fastening-systems"><img class="dropdown-product-img" src="images/product-logo/2nd-image/1.jpeg" alt="Cable Ties" /><span>Cable Ties &amp; Fastening Systems</span></a></li>
+              <li><a class="dropdown-item" href="category.php?product=cable-routing-mounting-solutions"><img class="dropdown-product-img" src="images/product-logo/2nd-image/2.jpeg" alt="Cable Routing" /><span>Cable Routing &amp; Mounting Solutions</span></a></li>
+              <li><a class="dropdown-item" href="category.php?product=cable-protection-systems"><img class="dropdown-product-img" src="images/product-logo/2nd-image/7.jpeg" alt="Cable Protection" /><span>Cable Protection Systems</span></a></li>
+              <li><a class="dropdown-item" href="category.php?product=cable-entry-sealing-solutions"><img class="dropdown-product-img" src="images/product-logo/2nd-image/5.jpeg" alt="Cable Entry" /><span>Cable Entry &amp; Sealing Solutions</span></a></li>
+              <li><a class="dropdown-item" href="category.php?product=pcb-support-systems"><img class="dropdown-product-img" src="images/product-logo/2nd-image/3.jpeg" alt="PCB Support" /><span>PCB Support Systems</span></a></li>
+              <li><a class="dropdown-item" href="category.php?product=plastic-fasteners-riveting-systems"><img class="dropdown-product-img" src="images/product-logo/2nd-image/6.jpeg" alt="Plastic Fasteners" /><span>Plastic Fasteners &amp; Riveting Systems</span></a></li>
+              <li><a class="dropdown-item" href="category.php?product=security-identification-systems"><img class="dropdown-product-img" src="images/product-logo/2nd-image/4.jpeg" alt="Security Seals" /><span>Security &amp; Identification Systems</span></a></li>
+              <li><a class="dropdown-item" href="sub-categories.php?product=cord-management&amp;category=cord-organix"><img class="dropdown-product-img" src="images/product-logo/2nd-image/8.jpeg" alt="Cord Management" /><span>Cord Management</span></a></li>
+              <li><a class="dropdown-item" href="sub-categories.php?product=connector-accessories&amp;category=connector-accessories"><img class="dropdown-product-img" src="images/product-logo/2nd-image/9.jpeg" alt="Connector Accessories" /><span>Connector Accessories</span></a></li>
             </ul>
           </li>
           <li class="nav-item"><a class="nav-link<?php echo $currentPage === 'media.php' ? ' active' : ''; ?>" href="media.php">Media &amp; Events</a></li>

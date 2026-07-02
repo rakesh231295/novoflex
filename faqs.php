@@ -2385,14 +2385,36 @@ include 'header.php';
                 </div>
                 <i class="bi bi-arrow-right arrow"></i>
               </a>
-              <a href="images/Installation_Guide.pdf" target="_blank" class="faq-quick-link">
+              <div class="faq-quick-link faq-install-guides-toggle" style="cursor: pointer;" onclick="var list=document.getElementById('installGuidesList');list.classList.toggle('open');document.getElementById('installGuidesArrow').style.transform=list.classList.contains('open')?'rotate(180deg)':'rotate(0)'">
                 <i class="bi bi-file-earmark-text icon"></i>
                 <div class="faq-quick-link-content">
                   <div class="faq-quick-link-title">Installation Guides</div>
                   <div class="faq-quick-link-desc">Step-by-step installation support</div>
                 </div>
-                <i class="bi bi-arrow-right arrow"></i>
-              </a>
+                <i class="bi bi-chevron-down arrow" id="installGuidesArrow" style="transition: transform 0.3s ease;"></i>
+              </div>
+              <div class="faq-install-guides-list" id="installGuidesList">
+                <a href="images/pdf/Cable-Tie-Installation-Guide.pdf" target="_blank" class="faq-install-guide-item">
+                  <i class="bi bi-file-earmark-pdf"></i>
+                  <span>Cable Tie Installation Guide</span>
+                  <i class="bi bi-box-arrow-up-right"></i>
+                </a>
+                <a href="images/pdf/Cabel-Gland-Installation-Guide.pdf" target="_blank" class="faq-install-guide-item">
+                  <i class="bi bi-file-earmark-pdf"></i>
+                  <span>Cable Gland Installation Guide</span>
+                  <i class="bi bi-box-arrow-up-right"></i>
+                </a>
+                <a href="images/pdf/Adhesive_Mount_Installation_Guide.pdf" target="_blank" class="faq-install-guide-item">
+                  <i class="bi bi-file-earmark-pdf"></i>
+                  <span>Adhesive Mount Installation Guide</span>
+                  <i class="bi bi-box-arrow-up-right"></i>
+                </a>
+                <a href="images/pdf/Ideal_Storage_Conditions.pdf" target="_blank" class="faq-install-guide-item">
+                  <i class="bi bi-file-earmark-pdf"></i>
+                  <span>Ideal Storage Conditions</span>
+                  <i class="bi bi-box-arrow-up-right"></i>
+                </a>
+              </div>
               <a href="#" class="faq-quick-link">
                 <i class="bi bi-shield-check icon"></i>
                 <div class="faq-quick-link-content">

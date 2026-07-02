@@ -330,7 +330,7 @@ Components for Industrial Applications
       <div class="col-md-6 col-lg-4">
         <a class="industry-card industry-card-featured" href="#contact">
           <span class="industry-media industry-slider" data-industry-slider data-interval="2600">
-            <img class="industry-slide is-active" src="images/industry/Manufacturing&IndustrialEquipment/1.webp" alt="Manufacturing and Industrial Equipment" />
+            <img class="industry-slide is-active" src="images/industry/Manufacturing&IndustrialEquipment/1.png" alt="Manufacturing and Industrial Equipment" />
             <img class="industry-slide" src="images/industry/2nd-image/Manufacturing-&-Industrial-Equipment/1.png" alt="Manufacturing and Industrial Equipment" />
           </span>
           <span class="industry-body">
@@ -342,7 +342,7 @@ Components for Industrial Applications
       <div class="col-md-6 col-lg-4">
         <a class="industry-card industry-card-featured" href="#contact">
           <span class="industry-media industry-slider" data-industry-slider data-interval="2900">
-            <img class="industry-slide is-active" src="images/industry/Automotive&EVComponents/1.jpg" alt="Automotive and EV Components" />
+            <img class="industry-slide is-active" src="images/industry/Automotive&EVComponents/1.png" alt="Automotive and EV Components" />
             <img class="industry-slide" src="images/industry/2nd-image/automobile.png" alt="Automotive and EV Components" />
           </span>
           <span class="industry-body">
@@ -354,7 +354,7 @@ Components for Industrial Applications
       <div class="col-md-6 col-lg-4">
         <a class="industry-card industry-card-featured" href="#contact">
           <span class="industry-media industry-slider" data-industry-slider data-interval="3100">
-            <img class="industry-slide is-active" src="images/industry/ElectricalPanels&ControlSystems/1.webp" alt="Electrical Panels and Control Systems" />
+            <img class="industry-slide is-active" src="images/industry/ElectricalPanels&ControlSystems/1.png" alt="Electrical Panels and Control Systems" />
             <img class="industry-slide" src="images/industry/2nd-image/Electrical-Panels-&-Control-Systems/1.png" alt="Electrical Panels and Control Systems" />
           </span>
           <span class="industry-body">
@@ -552,6 +552,27 @@ solutions tailored to your industry</div>
         </div>
       </div>
     </div>
+
+    <div class="cert-gallery mt-5">
+      <h3 class="cert-gallery-title text-center">Our Certifications</h3>
+      <div class="row g-4 mt-3 justify-content-center">
+        <div class="col-6 col-md-4">
+          <button type="button" class="media-tile cert-tile" data-zoom-src="images/certificate/certificate/IATF.jpg" aria-label="View IATF Certificate">
+            <img src="images/certificate/certificate/IATF.jpg" alt="IATF Certificate" />
+          </button>
+        </div>
+        <div class="col-6 col-md-4">
+          <button type="button" class="media-tile cert-tile" data-zoom-src="images/certificate/certificate/NIPL.jpg" aria-label="View NIPL Certificate">
+            <img src="images/certificate/certificate/NIPL.jpg" alt="NIPL Certificate" />
+          </button>
+        </div>
+        <div class="col-6 col-md-4">
+          <button type="button" class="media-tile cert-tile" data-zoom-src="images/certificate/certificate/ZED-gold.jpg" aria-label="View ZED Gold Certificate">
+            <img src="images/certificate/certificate/ZED-gold.jpg" alt="ZED Gold Certificate" />
+          </button>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -672,10 +693,10 @@ solutions tailored to your industry</div>
                           <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                         </div>
                         <p class="review-text">
-                          "Working with Novoflex has been smooth from day one. They’re easy to deal with, pricing is fair, and we don’t have to chase them for deliveries — which honestly makes a big difference."
+                          "Working with Novoflex has been smooth from day one. They're easy to deal with, pricing is fair, and we don't have to chase them for deliveries — which honestly makes a big difference."
                         </p>
                         <div class="review-author">Procurement</div>
-                        <div class="review-company">Leading Automotive Industry</div>
+                        <div class="review-company">Leading 2-Wheeler Manufacturer</div>
                       </div>
                     </div>
                     <div class="col-md-6">
@@ -684,10 +705,10 @@ solutions tailored to your industry</div>
                           <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                         </div>
                         <p class="review-text">
-                          "We’ve used Novoflex products in a few of our designs now, and the quality has been solid. Their team is also quite helpful whenever we need inputs or quick clarifications."
+                          "We've used Novoflex products in a few of our designs now, and the quality has been solid. Their team is also quite helpful whenever we need inputs or quick clarifications."
                         </p>
                         <div class="review-author">Design Engineer</div>
-                        <div class="review-company">One of the Leading Automotive Sector Company</div>
+                        <div class="review-company">Top Automobile Company in India</div>
                       </div>
                     </div>
                   </div>
@@ -700,10 +721,10 @@ solutions tailored to your industry</div>
                           <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                         </div>
                         <p class="review-text">
-                          "Novoflex has been a dependable partner for our projects. Even on tight timelines, they’ve managed to support us well without compromising on quality."
+                          "Novoflex has been a dependable partner for our projects. Even on tight timelines, they've managed to support us well without compromising on quality."
                         </p>
                         <div class="review-author">Project Manager</div>
-                        <div class="review-company">Top Solar Industry</div>
+                        <div class="review-company">Leading Solar Panel Manufacturer</div>
                       </div>
                     </div>
                     <div class="col-md-6">
@@ -715,7 +736,7 @@ solutions tailored to your industry</div>
                           "What I like about Novoflex is the consistency. The products are reliable, pricing is reasonable, and overall it just makes our job easier."
                         </p>
                         <div class="review-author">Purchase Head</div>
-                        <div class="review-company">Leading Fan Manufacturing Industry</div>
+                        <div class="review-company">Famous Fan Manufacturer in India</div>
                       </div>
                     </div>
                   </div>
@@ -731,7 +752,7 @@ solutions tailored to your industry</div>
                           "We tried out their products during development, and the experience was really positive. The samples, support, and overall responsiveness stood out for us."
                         </p>
                         <div class="review-author">R&amp;D Team</div>
-                        <div class="review-company">One of the Electrical/Electronics Industry</div>
+                        <div class="review-company">Top Electrical Manufacturer</div>
                       </div>
                     </div>
                   </div>
