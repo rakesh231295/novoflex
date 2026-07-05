@@ -1209,6 +1209,17 @@ include 'header.php';
                   </div>
                 </div>
               </div>
+              <!-- View More / View Less Buttons -->
+              <div class="faq-view-more-wrap" id="faqViewMoreWrap">
+                <button type="button" class="faq-view-more-btn" id="faqViewMoreBtn">
+                  <span class="faq-view-more-text">View More</span>
+                  <i class="bi bi-chevron-down faq-view-more-icon"></i>
+                </button>
+                <button type="button" class="faq-view-less-btn" id="faqViewLessBtn" style="display:none;">
+                  <span>View Less</span>
+                  <i class="bi bi-chevron-up faq-view-more-icon"></i>
+                </button>
+              </div>
             </div>
 
             <!-- COMPANY -->
@@ -2431,5 +2442,137 @@ include 'header.php';
     </div>
   </section>
 </main>
+
+<style>
+/* View More Button for All FAQs */
+#accordionAll > .accordion-item.faq-hidden {
+  display: none;
+}
+#accordionAll > .accordion-item.faq-reveal {
+  display: block;
+  animation: faqFadeIn 0.4s ease both;
+}
+@keyframes faqFadeIn {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.faq-view-more-wrap {
+  text-align: center;
+  margin-top: 28px;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.faq-view-more-btn,
+.faq-view-less-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 32px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #0056b3;
+  background: rgba(0, 86, 179, 0.06);
+  border: 1.5px solid rgba(0, 86, 179, 0.18);
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  letter-spacing: 0.02em;
+}
+.faq-view-more-btn:hover,
+.faq-view-less-btn:hover {
+  background: #0056b3;
+  color: #fff;
+  border-color: #0056b3;
+  box-shadow: 0 6px 20px rgba(0, 86, 179, 0.22);
+  transform: translateY(-2px);
+}
+.faq-view-more-icon {
+  font-size: 16px;
+  transition: transform 0.35s ease;
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var BATCH = 15;
+  var accordion = document.getElementById('accordionAll');
+  var btnMore = document.getElementById('faqViewMoreBtn');
+  var btnLess = document.getElementById('faqViewLessBtn');
+  var wrap = document.getElementById('faqViewMoreWrap');
+  var btnMoreText = btnMore.querySelector('.faq-view-more-text');
+  if (!accordion || !btnMore || !btnLess) return;
+
+  var allItems = Array.from(accordion.querySelectorAll(':scope > .accordion-item'));
+  var totalItems = allItems.length;
+  var visibleCount = 0;
+
+  // Initially hide all items beyond the first 15
+  allItems.forEach(function(item, index) {
+    if (index >= BATCH) {
+      item.classList.add('faq-hidden');
+    }
+  });
+  visibleCount = Math.min(BATCH, totalItems);
+
+  // Hide buttons if 15 or fewer FAQs
+  if (totalItems <= BATCH) {
+    wrap.style.display = 'none';
+    return;
+  }
+
+  // Update button visibility and text
+  function updateButtons() {
+    var remaining = totalItems - visibleCount;
+    // View More button
+    if (remaining <= 0) {
+      btnMore.style.display = 'none';
+    } else {
+      btnMore.style.display = '';
+      btnMoreText.textContent = 'View More (' + remaining + ' remaining)';
+    }
+    // View Less button — show only when more than first batch is visible
+    if (visibleCount > BATCH) {
+      btnLess.style.display = '';
+    } else {
+      btnLess.style.display = 'none';
+    }
+  }
+  updateButtons();
+
+  // View More — reveal next 15
+  btnMore.addEventListener('click', function() {
+    var nextEnd = Math.min(visibleCount + BATCH, totalItems);
+    for (var i = visibleCount; i < nextEnd; i++) {
+      var item = allItems[i];
+      item.classList.remove('faq-hidden');
+      item.classList.add('faq-reveal');
+      item.style.animationDelay = ((i - visibleCount) * 0.03) + 's';
+    }
+    visibleCount = nextEnd;
+    updateButtons();
+  });
+
+  // View Less — collapse back to first 15
+  btnLess.addEventListener('click', function() {
+    // Close any open accordion items beyond the first 15
+    for (var i = BATCH; i < allItems.length; i++) {
+      var openCollapse = allItems[i].querySelector('.accordion-collapse.show');
+      if (openCollapse) {
+        var bsCollapse = bootstrap.Collapse.getInstance(openCollapse);
+        if (bsCollapse) bsCollapse.hide();
+      }
+      allItems[i].classList.remove('faq-reveal');
+      allItems[i].classList.add('faq-hidden');
+      allItems[i].style.animationDelay = '';
+    }
+    visibleCount = BATCH;
+    updateButtons();
+    // Smooth scroll to accordion top
+    accordion.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
+});
+</script>
 
 <?php include 'footer.php'; ?>

@@ -29,42 +29,70 @@ $productHighlights = [
 ?>
 
 <main class="page-shell product-page-refresh">
-  <section class="product-range-hero">
-    <div class="container">
-      <div class="product-range-hero-card">
-        <div class="product-range-hero-copy">
-          <nav class="product-range-breadcrumb" aria-label="Breadcrumb">
-            <a href="index.php">Home</a>
-            <span>&gt;</span>
-            <span aria-current="page">Products</span>
-            <span>&gt;</span>
-            <span>Industrial Cable Management</span>
-          </nav>
-          <h1>Industrial Cable Management and Engineered Plastic Solutions, Built to Perform.</h1>
-          <p>High-performance cable management products and engineered plastic solutions for industrial applications. Reliable. Durable. Efficient.</p>
-          <div class="product-range-actions">
-            <a class="product-primary-btn" href="contact.php">Request a Quote <i class="bi bi-arrow-right"></i></a>
-            <a class="product-outline-btn" href="contact.php">Download Catalogue <i class="bi bi-download"></i></a>
-          </div>
-        </div>
-        <div class="product-range-hero-media" aria-hidden="true">
-          <img class="product-hero-main-img" src="images/TieMounts.png" alt="" />
-          <img class="product-hero-secondary-img" src="images/cable-protection.png" alt="" />
-          <img class="product-hero-corner-img" src="images/WireManagement%20.png" alt="" />
-        </div>
-      </div>
-
-      <div class="product-feature-strip">
-        <?php foreach ($productHighlights as $highlight) : ?>
-          <div class="product-feature-item">
-            <i class="bi <?php echo htmlspecialchars($highlight['icon']); ?>"></i>
-            <strong><?php echo htmlspecialchars($highlight['title']); ?></strong>
-            <span><?php echo htmlspecialchars($highlight['text']); ?></span>
-          </div>
-        <?php endforeach; ?>
-      </div>
-    </div>
+  <section class="product-video-hero">
+    <video autoplay muted loop playsinline id="productHeroVideo">
+      <source src="images/product-video.mp4" type="video/mp4">
+    </video>
   </section>
+
+  <style>
+    .product-video-hero {
+      width: 100%;
+      overflow: hidden;
+      line-height: 0;
+      background: #071e43;
+      padding-top: 150px;
+    }
+    .product-video-hero video {
+      width: 100%;
+      display: block;
+      object-fit: cover;
+    }
+
+    /* Mobile: reduce video top padding & slider for feature strip */
+    @media (max-width: 767.98px) {
+      .product-video-hero {
+        padding-top: 80px;
+      }
+      .product-feature-strip {
+        display: flex !important;
+        grid-template-columns: unset !important;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch;
+        gap: 0 !important;
+        padding-bottom: 6px;
+        scrollbar-width: none;
+      }
+      .product-feature-strip::-webkit-scrollbar {
+        display: none;
+      }
+      .product-feature-item {
+        flex: 0 0 160px;
+        min-width: 160px;
+        scroll-snap-align: start;
+        border-right: 1px solid rgba(12, 23, 41, .07) !important;
+        border-top: 0 !important;
+        min-height: 110px;
+        padding: 14px 12px;
+      }
+      .product-feature-item:last-child {
+        border-right: 0 !important;
+      }
+    }
+  </style>
+
+  <div class="container">
+    <div class="product-feature-strip">
+      <?php foreach ($productHighlights as $highlight) : ?>
+        <div class="product-feature-item">
+          <i class="bi <?php echo htmlspecialchars($highlight['icon']); ?>"></i>
+          <strong><?php echo htmlspecialchars($highlight['title']); ?></strong>
+          <span><?php echo htmlspecialchars($highlight['text']); ?></span>
+        </div>
+      <?php endforeach; ?>
+    </div>
+  </div>
 
   <section class="product-range-section">
     <div class="container">
@@ -144,5 +172,49 @@ $productHighlights = [
     </div>
   </section>
 </main>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const strip = document.querySelector('.product-feature-strip');
+  if (!strip) return;
+  
+  let slideInterval;
+  
+  function startSlide() {
+    if (window.innerWidth <= 767.98) {
+      if (!slideInterval) {
+        slideInterval = setInterval(() => {
+          const itemWidth = 160;
+          const maxScroll = strip.scrollWidth - strip.clientWidth;
+          
+          if (strip.scrollLeft + itemWidth >= maxScroll - 10) {
+            strip.scrollTo({ left: 0, behavior: 'smooth' });
+          } else {
+            strip.scrollBy({ left: itemWidth, behavior: 'smooth' });
+          }
+        }, 3000);
+      }
+    } else {
+      if (slideInterval) {
+        clearInterval(slideInterval);
+        slideInterval = null;
+      }
+    }
+  }
+
+  startSlide();
+  window.addEventListener('resize', startSlide);
+  
+  // Pause auto-slide when user interacts with the slider
+  strip.addEventListener('touchstart', () => {
+    if (slideInterval) clearInterval(slideInterval);
+  });
+  strip.addEventListener('touchend', () => {
+    slideInterval = null;
+    // Restart after a small delay so we don't immediately interrupt their scroll
+    setTimeout(startSlide, 2000);
+  });
+});
+</script>
 
 <?php include 'footer.php'; ?>
