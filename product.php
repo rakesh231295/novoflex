@@ -30,9 +30,17 @@ $productHighlights = [
 
 <main class="page-shell product-page-refresh">
   <section class="product-video-hero">
-    <video autoplay muted loop playsinline id="productHeroVideo">
-      <source src="images/product-video.mp4" type="video/mp4">
-    </video>
+    <div class="container">
+      <div class="product-video-hero-wrapper">
+        <video autoplay muted loop playsinline id="productHeroVideo">
+          <source src="images/product-video.mp4" type="video/mp4">
+        </video>
+        <div class="product-video-overlay-cta">
+          <a href="contact.php" class="btn btn-brand btn-brand-lg">Get a Quote <i class="bi bi-arrow-right ms-1"></i></a>
+          <a href="contact.php" class="btn btn-ghost btn-ghost-lg">Contact Us <i class="bi bi-telephone ms-1"></i></a>
+        </div>
+      </div>
+    </div>
   </section>
 
   <style>
@@ -40,13 +48,48 @@ $productHighlights = [
       width: 100%;
       overflow: hidden;
       line-height: 0;
-      background: #071e43;
       padding-top: 150px;
     }
-    .product-video-hero video {
+    .product-video-hero-wrapper {
+      position: relative;
+      border-radius: 7px 7px 0 0;
+      overflow: hidden;
+      line-height: 0;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    }
+    .product-video-hero-wrapper video {
       width: 100%;
       display: block;
       object-fit: cover;
+    }
+    .product-video-overlay-cta {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      padding: clamp(24px, 4vw, 48px) 24px;
+      background: linear-gradient(to top, rgba(9, 26, 51, 0.9) 0%, rgba(9, 26, 51, 0.4) 60%, rgba(9, 26, 51, 0) 100%);
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      gap: 16px;
+      z-index: 2;
+    }
+    @media (max-width: 575.98px) {
+      .product-video-overlay-cta {
+        padding: 16px;
+        gap: 10px;
+        flex-direction: column;
+      }
+      .product-video-overlay-cta .btn {
+        width: 100%;
+        padding: 10px 16px !important;
+        font-size: 13px !important;
+        border-radius: 8px !important;
+        justify-content: center;
+        display: inline-flex;
+        align-items: center;
+      }
     }
 
     /* Mobile: reduce video top padding & slider for feature strip */

@@ -504,7 +504,7 @@ include 'header.php';
         </div>
         <figure class="company-product-line-media">
           <img src="images/TieMounts.png" alt="Novoflex engineered product components" />
-          <figcaption>Representative product image</figcaption>
+          <!-- <figcaption>Representative product image</figcaption> -->
         </figure>
       </div>
     </div>
@@ -1027,7 +1027,7 @@ include 'header.php';
       <div class="section-kicker">Privacy Policy</div>
       <h2 class="section-title">Privacy Policy for Novoflex</h2>
       <p class="section-desc company-section-desc">
-        The same Privacy Policy content is organized below with clear headings for easier reading.
+        Your privacy matters to us. Learn how we collect, use, and protect your information.
       </p>
     </div>
 

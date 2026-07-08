@@ -2426,14 +2426,14 @@ include 'header.php';
                   <i class="bi bi-box-arrow-up-right"></i>
                 </a>
               </div>
-              <a href="#" class="faq-quick-link">
+              <!-- <a href="#" class="faq-quick-link">
                 <i class="bi bi-shield-check icon"></i>
                 <div class="faq-quick-link-content">
                   <div class="faq-quick-link-title">Certifications</div>
                   <div class="faq-quick-link-desc">View our quality certifications</div>
                 </div>
                 <i class="bi bi-arrow-right arrow"></i>
-              </a>
+              </a> -->
             </div>
           </div>
 
