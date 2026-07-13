@@ -20,10 +20,10 @@ $productApplications = [
 
 $productHighlights = [
   ['icon' => 'bi-award', 'title' => 'High Tensile Strength', 'text' => 'Built to handle heavy-duty applications'],
-  ['icon' => 'bi-sun', 'title' => 'UV Resistant', 'text' => 'Suitable for indoor and outdoor use'],
+  ['icon' => 'bi-sun', 'title' => 'UV Resistant*', 'text' => 'Suitable for indoor and outdoor use'],
   ['icon' => 'bi-lock', 'title' => 'Secure Locking', 'text' => 'Reliable locking for maximum safety'],
   ['icon' => 'bi-arrows-expand', 'title' => 'Wide Range of Sizes', 'text' => 'Multiple sizes and materials available'],
-  ['icon' => 'bi-fire', 'title' => 'Flame Retardant', 'text' => 'UL 94V-2 flame retardant material'],
+  ['icon' => 'bi-fire', 'title' => 'Flame Retardant*', 'text' => 'UL 94V-2 flame retardant material'],
   ['icon' => 'bi-patch-check', 'title' => 'RoHS Compliant', 'text' => 'Environment friendly and safe'],
 ];
 ?>
@@ -36,8 +36,11 @@ $productHighlights = [
           <source src="images/product-video.mp4" type="video/mp4">
         </video>
         <div class="product-video-overlay-cta">
-          <a href="contact.php" class="btn btn-brand btn-brand-lg">Get a Quote <i class="bi bi-arrow-right ms-1"></i></a>
-          <a href="contact.php" class="btn btn-ghost btn-ghost-lg">Contact Us <i class="bi bi-telephone ms-1"></i></a>
+          
+          <div class="product-video-cta-btns">
+            <a href="contact.php" class="btn btn-brand btn-brand-lg">Get a Quote <i class="bi bi-arrow-right ms-1"></i></a>
+            <a href="contact.php" class="btn btn-ghost btn-ghost-lg">Contact Us <i class="bi bi-telephone ms-1"></i></a>
+          </div>
         </div>
       </div>
     </div>
@@ -64,24 +67,56 @@ $productHighlights = [
     }
     .product-video-overlay-cta {
       position: absolute;
-      bottom: 0;
-      left: 0;
+      bottom: -24px;
+      left: 50px;
       right: 0;
-      padding: clamp(24px, 4vw, 48px) 24px;
-      background: linear-gradient(to top, rgba(9, 26, 51, 0.9) 0%, rgba(9, 26, 51, 0.4) 60%, rgba(9, 26, 51, 0) 100%);
+      padding: 0 32px 28px;
+      background: linear-gradient(to top, rgba(9,26,51,.92) 0%, rgba(9,26,51,.5) 45%, rgba(9,26,51,0) 100%);
       display: flex;
-      justify-content: flex-end;
-      align-items: center;
-      gap: 16px;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
       z-index: 2;
+    }
+    .product-video-breadcrumb {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: .16em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,.55);
+    }
+    .product-video-breadcrumb a {
+      color: rgba(255,255,255,.6);
+      text-decoration: none;
+      transition: color .2s;
+    }
+    .product-video-breadcrumb a:hover {
+      color: #fff;
+    }
+    .product-video-breadcrumb span:not([aria-current]) {
+      color: rgba(255,255,255,.3);
+    }
+    .product-video-breadcrumb span[aria-current="page"] {
+      color: rgba(255,255,255,.9);
+    }
+    .product-video-cta-btns {
+      display: flex;
+      align-items: center;
+      gap: 12px;
     }
     @media (max-width: 575.98px) {
       .product-video-overlay-cta {
-        padding: 16px;
+        padding: 20px 18px;
         gap: 10px;
-        flex-direction: column;
       }
-      .product-video-overlay-cta .btn {
+      .product-video-cta-btns {
+        flex-direction: column;
+        width: 100%;
+      }
+      .product-video-cta-btns .btn {
         width: 100%;
         padding: 10px 16px !important;
         font-size: 13px !important;
@@ -130,11 +165,12 @@ $productHighlights = [
       <?php foreach ($productHighlights as $highlight) : ?>
         <div class="product-feature-item">
           <i class="bi <?php echo htmlspecialchars($highlight['icon']); ?>"></i>
-          <strong><?php echo htmlspecialchars($highlight['title']); ?></strong>
+          <strong><?php echo str_replace('*', '<span class="feature-asterisk">*</span>', htmlspecialchars($highlight['title'])); ?></strong>
           <span><?php echo htmlspecialchars($highlight['text']); ?></span>
         </div>
       <?php endforeach; ?>
     </div>
+    <p class="product-feature-disclaimer"><span class="feature-asterisk" style="color:#c72631;font-weight:900;">*</span> Where Applicable</p>
   </div>
 
   <section class="product-range-section">
@@ -183,10 +219,10 @@ $productHighlights = [
         </div>
         <div class="product-applications-grid">
           <?php foreach ($productApplications as $application) : ?>
-            <div class="product-application-item">
+            <a href="industries.php" class="product-application-item">
               <i class="bi <?php echo htmlspecialchars($application['icon']); ?>"></i>
               <span><?php echo htmlspecialchars($application['label']); ?></span>
-            </div>
+            </a>
           <?php endforeach; ?>
         </div>
       </div>

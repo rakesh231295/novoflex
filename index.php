@@ -12,22 +12,22 @@
       <div class="col-lg-7">
         <div class="hero-badge mt-5">
           <span class="hero-badge-dot"></span>
-          <span>40+ Years of Manufacturing Excellence | ISO-Compliant Production | Trusted by Leading
+          <span>45+ Years of Manufacturing Excellence | IATF Complaint | Trusted by Leading
 Industries</span>
         </div>
 
         <h1 class="hero-title">
-          Engineered Cable Mangement & Precision Plastic Components for Industrial & OEM Applications.
+          Engineered Cable Management & Precision Plastic Components for Industrial & OEM Applications.
         </h1>
 
         <p class="hero-subtitle">
-          Premium-quality Cable Ties, Cable Glands, Wiring Accessories and Precision-Moulded
+          Premium quality Cable Ties, Cable Glands, Wiring Accessories and Precision Moulded
 Components for Industrial Applications
         </p>
 
         <div class="d-flex gap-3 flex-wrap mt-4">
-          <a href="#products" class="btn btn-brand btn-brand-lg">Request a Quote</a>
-          <a href="#story" class="btn btn-ghost btn-ghost-lg">Explore Our Products</a>
+          <a href="contact.php" class="btn btn-brand btn-brand-lg">Request a Quote</a>
+          <a href="product.php" class="btn btn-ghost btn-ghost-lg">Explore Our Products</a>
         </div>
       </div>
     </div>
@@ -83,16 +83,16 @@ Components for Industrial Applications
         <h2 class="about-lite-title">Engineered in India, Trusted Across <span class="section-highlight">Industries</span></h2>
 
         <p class="about-lite-desc">
-          Novoflex is a specialist manufacturer of cable management and engineered plastic components, trusted by OEMs, panel builders and EPCs for over four decades. From simple cable ties to application-specific parts, we design and manufacture products that keep critical connections safe, organized and protected in demanding environments.
+          Novoflex is a specialist manufacturer of cable management and engineered plastic components, trusted by OEMs, panel builders and EPCs for over four decades. From simple cable ties to application specific parts, we design and manufacture products that keep critical connections safe, organized and protected in demanding environments.
         </p>
         <p class="about-lite-desc">
           Started in Kolkata in the early 1980s as a small unit, Novoflex grew alongside India’s industrial expansion, steadily adding products, capacity and capabilities. Today, our range spans cable ties, glands, mounting and wiring accessories and customized components that serve power, infrastructure, automotive, rail, renewable energy and many other sectors.
         </p>
         <p class="about-lite-desc">
-          At Novoflex, we believe reliability is engineered, not promised. Our teams work closely with customers to understand their applications, suggest the right solutions and, when needed, co-develop custom parts from design to tooling. Every product is backed by rigorous testing, robust materials and a culture that values long-term partnerships over one-time orders.
+          At Novoflex, we believe reliability is engineered, not promised. Our teams work closely with customers to understand their applications, suggest the right solutions and, when needed, co-develop custom parts from design to tooling. Every product is backed by rigorous testing, robust materials and a culture that values long term partnerships over one time orders.
         </p>
         <p class="about-lite-desc mb-0">
-          This combination of technical know-how, manufacturing depth and customer-centric service has made Novoflex a quiet but essential partner behind thousands of projects across India.
+          This combination of technical know how, manufacturing depth and customer centric service has made Novoflex a quiet but essential partner behind thousands of projects across India.
         </p>
 
         <div class="mt-4">
@@ -273,7 +273,7 @@ Components for Industrial Applications
         <div class="whyus-card">
           <div class="whyus-icon"><i class="bi bi-shield-check"></i></div>
           <div class="whyus-name">Trust &amp; Legacy</div>
-          <div class="whyus-text">Over 40 years of industry presence with long-standing OEM partnerships.</div>
+          <div class="whyus-text">Over 45 years of industry presence with long standing OEM partnerships.</div>
         </div>
       </div>
       <div class="col-md-6 col-lg-4">
@@ -287,7 +287,7 @@ Components for Industrial Applications
         <div class="whyus-card">
           <div class="whyus-icon"><i class="bi bi-star-fill"></i></div>
           <div class="whyus-name">Certified Quality Manufacturing</div>
-          <div class="whyus-text">ISO-compliant processes with rigorous raw material testing and in-process inspections.</div>
+          <div class="whyus-text">IATF and UL complaint processes with rigorous raw material testing and in-process inspections.</div>
         </div>
       </div>
       <div class="col-md-6 col-lg-4">
@@ -301,14 +301,14 @@ Components for Industrial Applications
         <div class="whyus-card">
           <div class="whyus-icon"><i class="bi bi-gear-wide-connected"></i></div>
           <div class="whyus-name">Advanced Engineering Capabilities</div>
-          <div class="whyus-text">Precision mould design and high-performance polymer engineering expertise.</div>
+          <div class="whyus-text">Precision mould design and high performance polymer engineering expertise.</div>
         </div>
       </div>
       <div class="col-md-6 col-lg-4">
         <div class="whyus-card">
           <div class="whyus-icon"><i class="bi bi-people"></i></div>
           <div class="whyus-name">Customer-Centric Approach</div>
-          <div class="whyus-text">Customized solutions tailored to project-specific industrial requirements.</div>
+          <div class="whyus-text">Customized solutions tailored to project specific industrial requirements.</div>
         </div>
       </div>
     </div>
@@ -536,7 +536,7 @@ solutions tailored to your industry</div>
         <p class="cert-desc">Quality is embedded in every stage of our manufacturing process.</p>
 
         <ul class="cert-list">
-          <li>ISO-Certified Manufacturing Systems</li>
+          <li>IATF and UL complaint Manufacturing Systems</li>
           <li>High-Grade Raw Material Sourcing</li>
           <li>In-Process Quality Inspection</li>
           <li>Final Product Testing &amp; Validation</li>
@@ -559,16 +559,19 @@ solutions tailored to your industry</div>
         <div class="col-6 col-md-4">
           <button type="button" class="media-tile cert-tile" data-zoom-src="images/certificate/certificate/IATF.jpg" aria-label="View IATF Certificate">
             <img src="images/certificate/certificate/IATF.jpg" alt="IATF Certificate" />
+            <h5 class="text-center my-3">IATF 16949 : 2016 Certified</h5>
           </button>
         </div>
         <div class="col-6 col-md-4">
           <button type="button" class="media-tile cert-tile" data-zoom-src="images/certificate/certificate/NIPL.jpg" aria-label="View NIPL Certificate">
             <img src="images/certificate/certificate/NIPL.jpg" alt="NIPL Certificate" />
+            <h5 class="text-center my-3">UL Listed Certified</h5>
           </button>
         </div>
         <div class="col-6 col-md-4">
           <button type="button" class="media-tile cert-tile" data-zoom-src="images/certificate/certificate/ZED-gold.jpg" aria-label="View ZED Gold Certificate">
             <img src="images/certificate/certificate/ZED-gold.jpg" alt="ZED Gold Certificate" />
+            <h5 class="text-center my-3">ZED GOLD Certified</h5>
           </button>
         </div>
       </div>
@@ -677,7 +680,7 @@ solutions tailored to your industry</div>
             <div class="section-kicker">CUSTOMER REVIEWS</div>
             <h3 class="reviews-title">What Industrial Buyers Say About Working With Novoflex</h3>
             <p class="reviews-desc">
-              At Novoflex, long-term partnerships are built on consistent quality, dependable supply, and a clear understanding of real-world application requirements. These relationships reflect the trust our customers place in us across critical industrial applications.
+              At Novoflex, long term partnerships are built on consistent quality, dependable supply, and a clear understanding of real world application requirements. These relationships reflect the trust our customers place in us across critical industrial applications.
             </p>
           </div>
         </div>
@@ -693,10 +696,10 @@ solutions tailored to your industry</div>
                           <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                         </div>
                         <p class="review-text">
-                          "Working with Novoflex has been smooth from day one. They're easy to deal with, pricing is fair, and we don't have to chase them for deliveries — which honestly makes a big difference."
+                          "Working with Novoflex has been smooth from day one. They're easy to deal with, pricing is fair, and we don't have to chase them for deliveries which honestly makes a big difference."
                         </p>
                         <div class="review-author">Procurement</div>
-                        <div class="review-company">Leading 2-Wheeler Manufacturer</div>
+                        <div class="review-company">Leading 2 Wheeler Manufacturer</div>
                       </div>
                     </div>
                     <div class="col-md-6">
@@ -888,14 +891,14 @@ solutions tailored to your industry</div>
             <div class="info-card">
               <div class="info-icon"><i class="bi bi-geo-alt"></i></div>
               <div class="info-title">Our Office</div>
-              <div class="info-text">Raikva, Unit 506 - 508,<br>3A, Ram Mohan Mullick Garden Lane,<br>Kolkata - 700 010</div>
+              <div class="info-text"><strong>Novoflex Industries Pvt. Ltd.</strong><br>Raikva, Unit 506 - 508,<br>3A, Ram Mohan Mullick Garden Lane,<br>Kolkata - 700 010</div>
             </div>
           </div>
           <div class="col-md-6">
             <div class="info-card">
               <div class="info-icon"><i class="bi bi-telephone"></i></div>
               <div class="info-title">Phone</div>
-              <div class="info-text">+91 33 2372 0088</div>
+              <div class="info-text">+91 99031 63634</div>
             </div>
           </div>
           <div class="col-md-6">
@@ -909,16 +912,17 @@ solutions tailored to your industry</div>
             <div class="info-card">
               <div class="info-icon"><i class="bi bi-clock"></i></div>
               <div class="info-title">Working Hours</div>
-              <div class="info-text">Mon - Sat: 9:00 AM - 6:00 PM</div>
+              <div class="info-text">Mon - Fri: 9AM - 6AM, Sat: 9AM - 4PM</div>
             </div>
           </div>
           <div class="col-12">
             <div class="map-card">
               <iframe
                 title="Novoflex Location"
-                src="https://www.google.com/maps?q=Kolkata&output=embed"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.420923256849!2d88.4067343!3d22.563355099999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a027710ab644fa5%3A0x1a1d621185240be!2sNovoflex!5e0!3m2!1sen!2sin!4v1783965359627!5m2!1sen!2sin"
+                allowfullscreen=""
                 loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
+                referrerpolicy="strict-origin-when-cross-origin"
               ></iframe>
             </div>
           </div>

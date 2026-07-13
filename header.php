@@ -4,7 +4,7 @@ $baseUrl = 'http://localhost/novoflex/';
 
 $metaMap = [
   'index.php' => [
-    'title' => 'NOVOFLEX',
+    'title' => 'Home',
     'description' => 'Novoflex is an Indian manufacturer of cable ties, cable glands, wiring accessories, and engineered plastic components for industrial and OEM applications.',
   ],
   'company.php' => [
@@ -39,9 +39,13 @@ $metaMap = [
     'title' => 'Contact',
     'description' => 'Contact Novoflex for product enquiries, quotations, application support, and business discussions.',
   ],
+  'privacy-policy.php' => [
+    'title' => 'Policies',
+    'description' => 'Review the Novoflex Privacy Policy and Code of Ethics regarding our business operations.',
+  ],
 ];
 
-$resolvedTitle = $metaMap[$currentPage]['title'] ?? ($pageTitle ?? 'NOVOFLEX');
+$resolvedTitle = $metaMap[$currentPage]['title'] ?? ($pageTitle ?? 'Home');
 $resolvedDescription = $metaMap[$currentPage]['description'] ?? 'Novoflex manufactures industrial wiring accessories and engineered plastic components for OEM and industrial applications.';
 $canonicalUrl = $baseUrl . $currentPage;
 $metaImage = $baseUrl . 'images/logo.png';
@@ -51,7 +55,7 @@ $metaImage = $baseUrl . 'images/logo.png';
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title><?php echo htmlspecialchars($resolvedTitle) . ' | NOVOFLEX'; ?></title>
+  <title><?php echo 'Novoflex | ' . htmlspecialchars($resolvedTitle); ?></title>
   <meta name="description" content="<?php echo htmlspecialchars($resolvedDescription); ?>" />
   <meta name="keywords" content="Novoflex, cable ties, cable glands, wire management, security seals, cable protection, engineered plastic components, industrial wiring accessories" />
   <meta name="robots" content="index, follow" />
@@ -61,13 +65,13 @@ $metaImage = $baseUrl . 'images/logo.png';
 
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="NOVOFLEX" />
-  <meta property="og:title" content="<?php echo htmlspecialchars($resolvedTitle) . ' | NOVOFLEX'; ?>" />
+  <meta property="og:title" content="<?php echo 'Novoflex | ' . htmlspecialchars($resolvedTitle); ?>" />
   <meta property="og:description" content="<?php echo htmlspecialchars($resolvedDescription); ?>" />
   <meta property="og:url" content="<?php echo htmlspecialchars($canonicalUrl); ?>" />
   <meta property="og:image" content="<?php echo htmlspecialchars($metaImage); ?>" />
 
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="<?php echo htmlspecialchars($resolvedTitle) . ' | NOVOFLEX'; ?>" />
+  <meta name="twitter:title" content="<?php echo 'Novoflex | ' . htmlspecialchars($resolvedTitle); ?>" />
   <meta name="twitter:description" content="<?php echo htmlspecialchars($resolvedDescription); ?>" />
   <meta name="twitter:image" content="<?php echo htmlspecialchars($metaImage); ?>" />
 
@@ -86,9 +90,9 @@ $metaImage = $baseUrl . 'images/logo.png';
     <div class="container">
       <div class="header-top-row d-flex align-items-center justify-content-between gap-3 flex-wrap">
         <div class="d-flex align-items-center gap-3 flex-wrap">
-          <a class="header-top-link" href="tel:+913323720088">
+          <a class="header-top-link" href="tel:+91 99031 63634">
             <i class="bi bi-telephone-fill" aria-hidden="true"></i>
-            <span>+91 33 2372 0088</span>
+            <span>+91 99031 63634</span>
           </a>
           <a class="header-top-link" href="mailto:sales@novoflex.in">
             <i class="bi bi-envelope-fill" aria-hidden="true"></i>
@@ -135,11 +139,24 @@ $metaImage = $baseUrl . 'images/logo.png';
             <div class="header-language-control">
               <select id="languageSwitcher" class="header-language-select" data-language-switcher aria-describedby="translationDisclaimer">
                 <option value="">Language</option>
-                <option value="en">English</option>
-                <option value="hi">Hindi</option>
-                <option value="bn">Bengali</option>
-                <option value="ta">Tamil</option>
-                <option value="mr">Marathi</option>
+                <optgroup label="Indian Languages">
+                  <option value="en">English</option>
+                  <option value="hi">Hindi</option>
+                  <option value="bn">Bengali</option>
+                  <option value="ta">Tamil</option>
+                  <option value="mr">Marathi</option>
+                </optgroup>
+                <optgroup label="International">
+                  <option value="es">Spanish</option>
+                  <option value="de">German</option>
+                  <option value="fr">French</option>
+                  <option value="it">Italian</option>
+                  <option value="ja">Japanese</option>
+                  <option value="zh-CN">Chinese</option>
+                  <option value="ar">Arabic</option>
+                  <option value="pt">Portuguese</option>
+                  <option value="ru">Russian</option>
+                </optgroup>
               </select>
               <button type="button" class="header-info-trigger" aria-label="Translation information">
                 <i class="bi bi-info-circle-fill" aria-hidden="true"></i>
@@ -184,8 +201,8 @@ $metaImage = $baseUrl . 'images/logo.png';
               <li><a class="dropdown-item" href="company.php#manufacturing-excellence"><i class="bi bi-gear-wide-connected"></i> Manufacturing Excellence</a></li>
               <li><a class="dropdown-item" href="company.php#how-we-work"><i class="bi bi-diagram-3"></i> How We Work</a></li>
               <li><a class="dropdown-item" href="company.php#commitment-quality"><i class="bi bi-shield-check"></i> Commitment to Quality</a></li>
-              <li><a class="dropdown-item" href="company.php#code-of-ethics"><i class="bi bi-journal-check"></i> Code of Ethics</a></li>
-              <li><a class="dropdown-item" href="company.php#privacy-policy"><i class="bi bi-lock"></i> Privacy Policy</a></li>
+              <!-- <li><a class="dropdown-item" href="company.php#code-of-ethics"><i class="bi bi-journal-check"></i> Code of Ethics</a></li>
+              <li><a class="dropdown-item" href="company.php#privacy-policy"><i class="bi bi-lock"></i> Privacy Policy</a></li> -->
             </ul>
           </li>
           <li class="nav-item dropdown nav-split-item">

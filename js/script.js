@@ -95,7 +95,7 @@
     new google.translate.TranslateElement({
       pageLanguage: 'en',
       autoDisplay: false,
-      includedLanguages: 'en,hi,bn,ta,mr'
+      includedLanguages: 'en,hi,bn,ta,mr,es,de,fr,it,ja,zh-CN,ar,pt,ru'
     }, 'google_translate_element');
   };
 
@@ -377,9 +377,10 @@
       var rafId = null;
       var paused = false;
       var speed = 24;
-      var resumeTimerId = null;
       var offset = 0;
       var lastTs = 0;
+      var resumeTimerId = null;
+      var targetOffset = null;
 
       track.dataset.workflowReady = 'true';
 
@@ -397,6 +398,54 @@
 
       track.appendChild(innerTrack);
 
+      // Create and append navigation buttons
+      var prevBtn = document.createElement('button');
+      prevBtn.className = 'workflow-nav-btn prev-btn';
+      prevBtn.setAttribute('aria-label', 'Previous step');
+      prevBtn.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/></svg>';
+
+      var nextBtn = document.createElement('button');
+      nextBtn.className = 'workflow-nav-btn next-btn';
+      nextBtn.setAttribute('aria-label', 'Next step');
+      nextBtn.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/></svg>';
+
+      track.appendChild(prevBtn);
+      track.appendChild(nextBtn);
+
+      function getStepWidth() {
+        var firstStep = steps[0];
+        if (!firstStep) return 354;
+        var style = window.getComputedStyle(innerTrack);
+        var gap = parseFloat(style.columnGap || style.gap || 22);
+        return firstStep.offsetWidth + gap;
+      }
+
+      function handleNavClick(direction) {
+        pause();
+        var stepWidth = getStepWidth();
+        if (targetOffset === null) {
+          targetOffset = offset;
+        }
+        if (direction === 'next') {
+          targetOffset += stepWidth;
+        } else {
+          targetOffset -= stepWidth;
+        }
+        resumeLater(5000);
+      }
+
+      prevBtn.addEventListener('click', function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        handleNavClick('prev');
+      });
+
+      nextBtn.addEventListener('click', function (e) {
+        e.preventDefault();
+        e.stopPropagation();
+        handleNavClick('next');
+      });
+
       function tick(ts) {
         if (!lastTs) {
           lastTs = ts;
@@ -405,20 +454,38 @@
         var delta = ts - lastTs;
         lastTs = ts;
 
-        if (!paused) {
-          var resetPoint = innerTrack.scrollWidth / 2;
+        var resetPoint = innerTrack.scrollWidth / 2;
 
+        if (targetOffset !== null) {
+          var diff = targetOffset - offset;
+          if (Math.abs(diff) < 0.5) {
+            offset = targetOffset;
+            targetOffset = null;
+          } else {
+            offset += diff * 0.15;
+          }
+        } else if (!paused) {
           if (resetPoint > 0) {
             offset += (speed * delta) / 1000;
-
-            if (offset >= resetPoint) {
-              offset -= resetPoint;
-            }
-
-            innerTrack.style.transform = 'translate3d(' + (-offset) + 'px, 0, 0)';
           }
         }
 
+        // Normalize offset and targetOffset
+        if (resetPoint > 0) {
+          if (offset >= resetPoint) {
+            offset -= resetPoint;
+            if (targetOffset !== null) {
+              targetOffset -= resetPoint;
+            }
+          } else if (offset < 0) {
+            offset += resetPoint;
+            if (targetOffset !== null) {
+              targetOffset += resetPoint;
+            }
+          }
+        }
+
+        innerTrack.style.transform = 'translate3d(' + (-offset) + 'px, 0, 0)';
         rafId = window.requestAnimationFrame(tick);
       }
 

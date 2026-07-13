@@ -7,8 +7,8 @@
         </div>
         <p class="footer-desc mt-3">
           Novoflex is a leading Indian manufacturer of cable ties, cable glands, wiring accessories, and
-engineered plastic components serving OEMs and industrial sectors for over 40 years. We
-deliver ISO-certified, high-performance cable management solutions across India and global
+engineered plastic components serving OEMs and industrial sectors for over 45+ years. We
+deliver IATF and UL certified, high performance cable management solutions across India and global
 markets.
         </p>
         <div class="footer-socials mt-3">
@@ -48,8 +48,9 @@ markets.
       <div class="col-lg-3">
         <div class="footer-title">Contact Us</div>
         <div class="footer-contact">
+          <div><strong>Novoflex Industries Pvt. Ltd.</strong></div>
           <div>Raikva, Unit 506 - 508, 3A Ram Mohan Mullick Garden Lane, Kolkata - 700 010</div>
-          <div><a href="tel:+913323720088">+91 33 2372 0088</a></div>
+          <!-- <div><a href="tel:+913323720088">+91 33 2372 0088</a></div> -->
           <div><a href="tel:+919903163634">+91 99031 63634</a></div>
           <div><a href="mailto:sales@novoflex.in">sales@novoflex.in</a></div>
         </div>
@@ -63,7 +64,7 @@ markets.
         </div>
         <div class="col-md-6">
           <div class="footer-bottom-links">
-            <a href="company.php#privacy-policy">Privacy Policy</a>
+            <a href="privacy-policy.php">Policies </a>
             <a href="#">Terms of Service</a>
             <a class="back-to-top" href="index.php#home" aria-label="Back to top"><i class="bi bi-arrow-up"></i></a>
           </div>

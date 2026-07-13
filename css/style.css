@@ -2232,11 +2232,25 @@ body {
   font-weight: 900;
 }
 
+.feature-asterisk {
+  color: #c72631!important;
+  font-weight: 900;
+}
+
 .product-feature-item span {
   max-width: 132px;
   color: rgba(12, 23, 41, .62);
   font-size: 10px;
   line-height: 1.45;
+}
+
+.product-feature-disclaimer {
+  margin: 6px 0 0;
+  font-size: 11px;
+  font-weight: 600;
+  color: #c72631;
+  letter-spacing: .01em;
+  text-align: right;
 }
 
 .product-range-section,
@@ -2409,11 +2423,28 @@ body {
   justify-items: center;
   color: #10233f;
   text-align: center;
+  text-decoration: none;
+  border-radius: 12px;
+  padding: 10px 6px;
+  transition: background .2s, transform .2s, box-shadow .2s;
+  cursor: pointer;
+}
+
+.product-application-item:hover {
+  background: rgba(199, 38, 49, .06);
+  transform: translateY(-3px);
+  box-shadow: 0 6px 18px rgba(199, 38, 49, .1);
+  color: #c72631;
+}
+
+.product-application-item:hover i {
+  transform: scale(1.15);
 }
 
 .product-application-item i {
   color: #c72631;
   font-size: 25px;
+  transition: transform .2s;
 }
 
 .product-application-item span {
@@ -8325,7 +8356,7 @@ body.media-lightbox-open {
   content: "";
   position: absolute;
   inset: 45% 0 0;
-  background: linear-gradient(180deg, rgba(7, 26, 50, 0) 0%, rgba(7, 26, 50, .78) 100%);
+  /* background: linear-gradient(180deg, rgba(7, 26, 50, 0) 0%, rgba(7, 26, 50, .78) 100%); */
 }
 
 .company-page-refresh .company-product-line-media figcaption {
@@ -8384,50 +8415,171 @@ body.media-lightbox-open {
   line-height: 1.18;
 }
 
-.company-usp-card-accent {
-  background: linear-gradient(145deg, #112b4e 0%, #183a69 100%);
-  border-color: rgba(255, 255, 255, .08);
+/* Card Transition & Hover Lift */
+.company-usp-card {
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s ease, border-color 0.3s ease;
+}
+.company-usp-card:hover {
+  transform: translateY(-8px);
 }
 
-.company-usp-card-accent .company-usp-icon {
-  background: rgba(255, 255, 255, .12);
-  color: #fff;
+/* Card Transition & Hover Lift */
+.company-page-refresh .company-usp-card {
+  position: relative;
+  overflow: hidden;
+  border-top: 4px solid transparent !important;
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.4s ease, border-color 0.4s ease !important;
+  border-radius: 20px !important;
+  padding: 32px 24px !important;
+}
+.company-page-refresh .company-usp-card:hover {
+  transform: translateY(-10px) !important;
 }
 
-.company-usp-card-accent .company-usp-index {
-  background: rgba(255, 255, 255, .12);
-  color: #fff;
+.company-page-refresh .company-usp-icon {
+  width: 60px !important;
+  height: 60px !important;
+  border-radius: 16px !important;
+  font-size: 26px !important;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+}
+.company-page-refresh .company-usp-card:hover .company-usp-icon {
+  transform: scale(1.1) rotate(5deg) !important;
 }
 
-.company-usp-card-accent .content-card-title {
-  color: #fff;
+/* Color Variant 1: Red/Rose (Trust & Legacy) */
+.company-page-refresh .company-usp-card-c1 {
+  background: linear-gradient(135deg, #ffffff 0%, #fff2f3 100%) !important;
+  border-color: rgba(199, 38, 49, 0.12) !important;
+  border-top-color: #c72631 !important;
+  box-shadow: 0 10px 30px rgba(199, 38, 49, 0.04) !important;
+}
+.company-page-refresh .company-usp-card-c1:hover {
+  border-color: rgba(199, 38, 49, 0.3) !important;
+  border-top-color: #c72631 !important;
+  box-shadow: 0 20px 40px rgba(199, 38, 49, 0.18) !important;
+}
+.company-page-refresh .company-usp-card-c1 .company-usp-icon {
+  background: #ffe5e7 !important;
+  color: #c72631 !important;
+  box-shadow: 0 6px 15px rgba(199, 38, 49, 0.15) !important;
+}
+.company-page-refresh .company-usp-card-c1 .company-usp-index {
+  background: rgba(199, 38, 49, 0.06) !important;
+  color: #c72631 !important;
 }
 
-.company-usp-card-accent .content-card-text {
-  color: rgba(255, 255, 255, .78);
+/* Color Variant 2: Blue/Sky (Widest Range) */
+.company-page-refresh .company-usp-card-c2 {
+  background: linear-gradient(135deg, #ffffff 0%, #eef6ff 100%) !important;
+  border-color: rgba(22, 95, 199, 0.12) !important;
+  border-top-color: #165fc7 !important;
+  box-shadow: 0 10px 30px rgba(22, 95, 199, 0.04) !important;
+}
+.company-page-refresh .company-usp-card-c2:hover {
+  border-color: rgba(22, 95, 199, 0.3) !important;
+  border-top-color: #165fc7 !important;
+  box-shadow: 0 20px 40px rgba(22, 95, 199, 0.18) !important;
+}
+.company-page-refresh .company-usp-card-c2 .company-usp-icon {
+  background: #e0f0ff !important;
+  color: #165fc7 !important;
+  box-shadow: 0 6px 15px rgba(22, 95, 199, 0.12) !important;
+}
+.company-page-refresh .company-usp-card-c2 .company-usp-index {
+  background: rgba(22, 95, 199, 0.06) !important;
+  color: #165fc7 !important;
 }
 
-.company-page-refresh .company-usp-card:last-child {
-  background: #fff;
-  border-color: rgba(12, 23, 41, .08);
+/* Color Variant 3: Indigo/Seal (Quality) */
+.company-page-refresh .company-usp-card-c3 {
+  background: linear-gradient(135deg, #ffffff 0%, #f6f0ff 100%) !important;
+  border-color: rgba(119, 76, 238, 0.12) !important;
+  border-top-color: #774cee !important;
+  box-shadow: 0 10px 30px rgba(119, 76, 238, 0.04) !important;
+}
+.company-page-refresh .company-usp-card-c3:hover {
+  border-color: rgba(119, 76, 238, 0.3) !important;
+  border-top-color: #774cee !important;
+  box-shadow: 0 20px 40px rgba(119, 76, 238, 0.18) !important;
+}
+.company-page-refresh .company-usp-card-c3 .company-usp-icon {
+  background: #eae2ff !important;
+  color: #774cee !important;
+  box-shadow: 0 6px 15px rgba(119, 76, 238, 0.15) !important;
+}
+.company-page-refresh .company-usp-card-c3 .company-usp-index {
+  background: rgba(119, 76, 238, 0.06) !important;
+  color: #774cee !important;
 }
 
-.company-page-refresh .company-usp-card:last-child .company-usp-icon {
-  background: linear-gradient(135deg, rgba(199, 38, 49, .12), rgba(17, 43, 78, .1));
-  color: var(--brand-red);
+/* Color Variant 4: Amber/Gold (Cost-Effective) */
+.company-page-refresh .company-usp-card-c4 {
+  background: linear-gradient(135deg, #ffffff 0%, #fff8e7 100%) !important;
+  border-color: rgba(223, 138, 19, 0.12) !important;
+  border-top-color: #df8a13 !important;
+  box-shadow: 0 10px 30px rgba(223, 138, 19, 0.04) !important;
+}
+.company-page-refresh .company-usp-card-c4:hover {
+  border-color: rgba(223, 138, 19, 0.3) !important;
+  border-top-color: #df8a13 !important;
+  box-shadow: 0 20px 40px rgba(223, 138, 19, 0.18) !important;
+}
+.company-page-refresh .company-usp-card-c4 .company-usp-icon {
+  background: #fff1cc !important;
+  color: #df8a13 !important;
+  box-shadow: 0 6px 15px rgba(223, 138, 19, 0.15) !important;
+}
+.company-page-refresh .company-usp-card-c4 .company-usp-index {
+  background: rgba(223, 138, 19, 0.06) !important;
+  color: #df8a13 !important;
 }
 
-.company-page-refresh .company-usp-card:last-child .company-usp-index {
-  background: rgba(17, 43, 78, .06);
-  color: #10233f;
+/* Color Variant 5: Emerald/Supply (Supply Chain) */
+.company-page-refresh .company-usp-card-c5 {
+  background: linear-gradient(135deg, #ffffff 0%, #ebfaf0 100%) !important;
+  border-color: rgba(25, 135, 84, 0.12) !important;
+  border-top-color: #198754 !important;
+  box-shadow: 0 10px 30px rgba(25, 135, 84, 0.04) !important;
+}
+.company-page-refresh .company-usp-card-c5:hover {
+  border-color: rgba(25, 135, 84, 0.3) !important;
+  border-top-color: #198754 !important;
+  box-shadow: 0 20px 40px rgba(25, 135, 84, 0.18) !important;
+}
+.company-page-refresh .company-usp-card-c5 .company-usp-icon {
+  background: #ccf6dc !important;
+  color: #198754 !important;
+  box-shadow: 0 6px 15px rgba(25, 135, 84, 0.15) !important;
+}
+.company-page-refresh .company-usp-card-c5 .company-usp-index {
+  background: rgba(25, 135, 84, 0.06) !important;
+  color: #198754 !important;
 }
 
-.company-page-refresh .company-usp-card:last-child .content-card-title {
-  color: #10233f;
+/* Color Variant 6: Slate/Steel (Customer-Centric) */
+.company-page-refresh .company-usp-card-c6 {
+  background: linear-gradient(135deg, #ffffff 0%, #f0f3f8 100%) !important;
+  border-color: rgba(16, 35, 63, 0.12) !important;
+  border-top-color: #10233f !important;
+  box-shadow: 0 10px 30px rgba(16, 35, 63, 0.04) !important;
 }
-
-.company-page-refresh .company-usp-card:last-child .content-card-text {
-  color: rgba(12, 23, 41, .7);
+.company-page-refresh .company-usp-card-c6:hover {
+  border-color: rgba(16, 35, 63, 0.3) !important;
+  border-top-color: #10233f !important;
+  box-shadow: 0 20px 40px rgba(16, 35, 63, 0.18) !important;
+}
+.company-page-refresh .company-usp-card-c6 .company-usp-icon {
+  background: #e2e8f0 !important;
+  color: #10233f !important;
+  box-shadow: 0 6px 15px rgba(16, 35, 63, 0.12) !important;
+}
+.company-page-refresh .company-usp-card-c6 .company-usp-index {
+  background: rgba(16, 35, 63, 0.06) !important;
+  color: #10233f !important;
 }
 
 .company-page-refresh .company-journey-intro {
@@ -8599,6 +8751,60 @@ body.media-lightbox-open {
   width: max-content;
   will-change: transform;
   transform: translate3d(0, 0, 0);
+}
+
+/* Workflow Navigation Buttons */
+.company-page-refresh .workflow-nav-btn {
+  position: absolute;
+  top: 50%;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: #ffffff;
+  border: 1px solid rgba(17, 43, 78, 0.12);
+  box-shadow: 0 6px 16px rgba(12, 23, 41, 0.08);
+  color: #112b4e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 10;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 0;
+  transform: translateY(-50%);
+}
+
+.company-page-refresh .workflow-nav-btn:hover {
+  background: #c72631;
+  color: #ffffff;
+  border-color: #c72631;
+  box-shadow: 0 8px 20px rgba(199, 38, 49, 0.25);
+  transform: translateY(-50%) scale(1.08);
+}
+
+.company-page-refresh .workflow-nav-btn:active {
+  transform: translateY(-50%) scale(0.95);
+}
+
+.company-page-refresh .workflow-nav-btn.prev-btn {
+  left: 20px;
+}
+
+.company-page-refresh .workflow-nav-btn.next-btn {
+  right: 20px;
+}
+
+@media (max-width: 768px) {
+  .company-page-refresh .workflow-nav-btn {
+    width: 38px;
+    height: 38px;
+  }
+  .company-page-refresh .workflow-nav-btn.prev-btn {
+    left: 8px;
+  }
+  .company-page-refresh .workflow-nav-btn.next-btn {
+    right: 8px;
+  }
 }
 
 .company-page-refresh .company-workflow-horizontal::before {
@@ -9786,7 +9992,7 @@ body.media-lightbox-open {
   min-height: 360px;
   border-radius: 0;
   background:
-    linear-gradient(90deg, rgba(2, 22, 61, .98) 0%, rgba(2, 22, 61, .92) 42%, rgba(2, 22, 61, .22) 76%),
+    linear-gradient(90deg, rgba(2, 22, 61, .98) 0%, rgba(2, 22, 61, .92) 42%, rgba(2, 22, 61, .22) 52%),
     url("../images/contact-banner.jpeg") right center / contain no-repeat,
     #061b43;
   color: #fff;

@@ -118,7 +118,7 @@ include 'header.php';
                 </span>
                 <div>
                   <strong>Address</strong>
-                  <span>Raikva, Unit 506 - 508, 5th Floor, 3A Ram Mohan Mullick Garden Lane, Kolkata - 700 010, India</span>
+                  <span><strong>Novoflex Industries Pvt. Ltd.</strong>Raikva, Unit 506 - 508, 5th Floor, 3A Ram Mohan Mullick Garden Lane, Kolkata - 700 010, India</span>
                 </div>
               </div>
               <div class="contact-detail">
@@ -127,7 +127,7 @@ include 'header.php';
                 </span>
                 <div>
                   <strong>Call Us</strong>
-                  <a href="tel:+913323720088">+91 33 2372 0088</a><br />
+                  <!-- <a href="tel:+913323720088">+91 33 2372 0088</a><br /> -->
                   <a href="tel:+919903163634">+91 99031 63634</a>
                 </div>
               </div>
@@ -155,7 +155,7 @@ include 'header.php';
                 </span>
                 <div>
                   <strong>Working Hours</strong>
-                  <span>Monday to Saturday, 9:00 AM to 6:00 PM</span>
+                  <span>Mon - Fri: 9AM - 6AM, Sat: 9AM - 4PM</span>
                 </div>
               </div>
             </div>
@@ -166,9 +166,10 @@ include 'header.php';
           <div class="contact-map-card">
             <iframe
               title="Novoflex Location"
-              src="https://www.google.com/maps?q=Raikva%2C%20Unit%20506%20-%20508%2C%205th%20Floor%2C%203A%20Ram%20Mohan%20Mullick%20Garden%20Lane%2C%20Kolkata%20700010&output=embed"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.420923256849!2d88.4067343!3d22.563355099999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a027710ab644fa5%3A0x1a1d621185240be!2sNovoflex!5e0!3m2!1sen!2sin!4v1783965359627!5m2!1sen!2sin"
+              allowfullscreen=""
               loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
+              referrerpolicy="strict-origin-when-cross-origin"
             ></iframe>
           </div>
         </div>
