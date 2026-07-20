@@ -481,7 +481,7 @@ include 'header.php';
             Driven by a strong in-house <strong>R&amp;D and tooling capability</strong>, our products are developed to simplify installation, improve reliability, and enhance long-term performance in real-world operating environments.
           </p>
           <p class="content-card-text">
-            Through continuous <strong>Value Analysis and Value Engineering (VA & VE)</strong> initiatives, we deliver solutions that are not only technically efficient but also cost-optimized for large-scale production requirements.
+            Through continuous <strong>Value Analysis and Value Engineering (VAVE)</strong> initiatives, we deliver solutions that are not only technically efficient but also cost-optimized for large-scale production requirements.
           </p>
           <p class="content-card-text">
             We have a wide variety of engineered <strong>component solutions ranging from:</strong>

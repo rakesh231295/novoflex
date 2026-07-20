@@ -6,8 +6,8 @@ include 'header.php';
 <main class="page-shell company-page company-page-refresh">
   <section class="page-hero">
     <div class="container">
-      <div class="row page-hero-grid g-4 align-items-center">
-        <div class="col-lg-7">
+      <div class="row page-hero-grid g-4 align-items-center justify-content-center text-center">
+        <div class="col-lg-8">
           <div class="page-hero-content">
             <nav class="page-breadcrumb" aria-label="Breadcrumb">
               <a href="index.php">Home</a>
@@ -15,8 +15,8 @@ include 'header.php';
               <span aria-current="page">Policies</span>
             </nav>
             <span class="page-kicker">Policies</span>
-            <h1 class="page-title">Ethics &amp; Privacy at Novoflex</h1>
-            <p class="page-desc">
+            <h1 class="page-title mx-auto">Ethics &amp; Privacy at Novoflex</h1>
+            <p class="page-desc mx-auto">
               Learn about our guidelines for legal and ethical conduct, and how we protect and manage the information you share with us.
             </p>
           </div>

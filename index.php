@@ -12,7 +12,7 @@
       <div class="col-lg-7">
         <div class="hero-badge mt-5">
           <span class="hero-badge-dot"></span>
-          <span>45+ Years of Manufacturing Excellence | IATF Complaint | Trusted by Leading
+          <span>45+ Years of Manufacturing Excellence | IATF compliant | Trusted by Leading
 Industries</span>
         </div>
 
@@ -287,7 +287,7 @@ Components for Industrial Applications
         <div class="whyus-card">
           <div class="whyus-icon"><i class="bi bi-star-fill"></i></div>
           <div class="whyus-name">Certified Quality Manufacturing</div>
-          <div class="whyus-text">IATF and UL complaint processes with rigorous raw material testing and in-process inspections.</div>
+          <div class="whyus-text">IATF and UL compliant processes with rigorous raw material testing and in-process inspections.</div>
         </div>
       </div>
       <div class="col-md-6 col-lg-4">
@@ -536,14 +536,14 @@ solutions tailored to your industry</div>
         <p class="cert-desc">Quality is embedded in every stage of our manufacturing process.</p>
 
         <ul class="cert-list">
-          <li>IATF and UL complaint Manufacturing Systems</li>
+          <li>IATF and UL compliant Manufacturing Systems</li>
           <li>High-Grade Raw Material Sourcing</li>
           <li>In-Process Quality Inspection</li>
           <li>Final Product Testing &amp; Validation</li>
           <li>Compliance with Industry Standards</li>
         </ul>
 
-        <p class="cert-foot">Tested & Approved by International certification bodies: UL, TUV, SGS, Intertek, CIPE & National Test House.</p>
+        <p class="cert-foot">Tested & Approved by International certification bodies: UL, TUV, SGS, Intertek, CIPET & National Test House.</p>
       </div>
 
       <div class="col-lg-5">
@@ -696,10 +696,10 @@ solutions tailored to your industry</div>
                           <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                         </div>
                         <p class="review-text">
-                          "Working with Novoflex has been smooth from day one. They're easy to deal with, pricing is fair, and we don't have to chase them for deliveries which honestly makes a big difference."
+                          "Working with Novoflex has been smooth from day one. They’re easy to deal with, pricing is fair, and we don’t have to chase them for deliveries — which honestly makes a big difference."
                         </p>
                         <div class="review-author">Procurement</div>
-                        <div class="review-company">Leading 2 Wheeler Manufacturer</div>
+                        <div class="review-company">Leading 2-wheeler Manufacturer</div>
                       </div>
                     </div>
                     <div class="col-md-6">
@@ -708,10 +708,10 @@ solutions tailored to your industry</div>
                           <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                         </div>
                         <p class="review-text">
-                          "We've used Novoflex products in a few of our designs now, and the quality has been solid. Their team is also quite helpful whenever we need inputs or quick clarifications."
+                          "We’ve used Novoflex products in a few of our designs now, and the quality has been solid. Their team is also quite helpful whenever we need inputs or quick clarifications."
                         </p>
                         <div class="review-author">Design Engineer</div>
-                        <div class="review-company">Top Automobile Company in India</div>
+                        <div class="review-company">Top EV Vehicle Manufacturer Company in India</div>
                       </div>
                     </div>
                   </div>
@@ -724,7 +724,7 @@ solutions tailored to your industry</div>
                           <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                         </div>
                         <p class="review-text">
-                          "Novoflex has been a dependable partner for our projects. Even on tight timelines, they've managed to support us well without compromising on quality."
+                          "Novoflex has been a dependable partner for our projects. Even on tight timelines, they’ve managed to support us well without compromising on quality."
                         </p>
                         <div class="review-author">Project Manager</div>
                         <div class="review-company">Leading Solar Panel Manufacturer</div>
@@ -739,13 +739,13 @@ solutions tailored to your industry</div>
                           "What I like about Novoflex is the consistency. The products are reliable, pricing is reasonable, and overall it just makes our job easier."
                         </p>
                         <div class="review-author">Purchase Head</div>
-                        <div class="review-company">Famous Fan Manufacturer in India</div>
+                        <div class="review-company">Largest Fan Manufacturer in India</div>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <div class="row g-3 justify-content-center">
+                  <div class="row g-3">
                     <div class="col-md-6">
                       <div class="review-card">
                         <div class="review-stars" aria-label="5 star review">
@@ -755,7 +755,19 @@ solutions tailored to your industry</div>
                           "We tried out their products during development, and the experience was really positive. The samples, support, and overall responsiveness stood out for us."
                         </p>
                         <div class="review-author">R&amp;D Team</div>
-                        <div class="review-company">Top Electrical Manufacturer</div>
+                        <div class="review-company">Top Electrical Switchboard Manufacturer.</div>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="review-card">
+                        <div class="review-stars" aria-label="5 star review">
+                          <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                        </div>
+                        <p class="review-text">
+                          "For our government infrastructure project, reliability and compliance were non-negotiable. Novoflex supplied cable management and fastening solutions that consistently met our technical requirements and performed exceptionally well throughout installation. The product quality, dimensional consistency, and on-time delivery helped us maintain project schedules without compromising safety or performance. Novoflex has proven to be a dependable partner for mission-critical applications."
+                        </p>
+                        <div class="review-author">Project Engineer</div>
+                        <div class="review-company">Government Infrastructure Project</div>
                       </div>
                     </div>
                   </div>
