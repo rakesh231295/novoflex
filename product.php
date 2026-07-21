@@ -156,8 +156,6 @@ $productHighlights = [
       }
       .product-feature-item:last-child {
         border-right: 0 !important;
-      }
-    }
   </style>
 
   <div class="container">

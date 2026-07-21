@@ -2342,7 +2342,7 @@ body {
 
 .product-range-image {
   display: block;
-  height: 150px;
+  height: 220px;
   overflow: hidden;
   background: #eef3f8;
 }
@@ -2351,7 +2351,7 @@ body {
   width: 100%;
   height: 100%;
   display: block;
-  object-fit: cover;
+  /* object-fit: cover; */
   object-position: center;
   transition: transform .2s ease;
 }
